@@ -1,5 +1,11 @@
 # Changelog
 
+## Case protocol update 2.0.1 — 2026-09-16
+
+- Request English conversation and deliverables explicitly in both case openings.
+- Add a retrospective secondary-analysis purpose to NHANES, aimed at informing a future study; preserve its cross-sectional, noncausal interpretation and open method choices.
+- Regenerate both preparation packages and manifests. Framework remains 2.0.0; archived originals remain unchanged. No live case was launched.
+
 ## 2.0.0 — 2026-09-16
 
 - Converted NHANES and GBM preparations to research-direction openings and progressive, approved stages.

@@ -1,6 +1,6 @@
 # Scientific and feature assessment: Smoking and depressive symptoms in NHANES
 
-Framework **2.0.0** · protocol **nhanes-smoking-phq9-conversation-v2.0.0** · **prepared; no live validation claimed**.
+Framework **2.0.0** · protocol **nhanes-smoking-phq9-conversation-v2.0.1** · **prepared; no live validation claimed**.
 
 External operator material. The scientific opening is [01](01_OpenScience_Prompt.md). The [contract](design-basis/operating-contract.md) governs operation; the [adaptation map](design-basis/checklist-alignment.md) accounts for CP0–CP7 and every original section 8.2 result category. The original checklist stays unchanged.
 
@@ -10,7 +10,7 @@ External operator material. The scientific opening is [01](01_OpenScience_Prompt
 - Verify actual official source contents and documentation for the variables selected. Validate downloaded file formats, unique respondent identifiers, linkage and cohort definitions. A retrieved HTML error page is not an XPT dataset.
 - Check coding, valid values, structural skips and missingness against the selected instruments; screening scores are not automatically clinical diagnoses.
 - For population estimates or uncertainty, verify appropriate complex-survey design, weights, domains and variance assumptions for the selected measurements. Do not silently assess against a preferred software language.
-- Interpret this observational cross-sectional setting with appropriately bounded claims; adjustment alone does not establish a causal explanation.
+- Retrospective refers to secondary analysis of already collected survey data; it does not establish a longitudinal or retrospective cohort design. Interpret this observational cross-sectional setting with appropriately bounded claims; adjustment alone does not establish a causal explanation.
 - No inherited age bounds, module quota, symptom cutoff, fixed model list, multiplicity family, required file count or report length applies. Scientific validity still applies to choices actually made.
 
 These are validity checks applicable to the chosen investigation, not a fixed analysis recipe. Raise a concrete validity problem during Plan review when necessary; disclose any scientific help. The agreed Plan establishes actual scope. An archived example or external study does not supply required estimates or a hidden answer.

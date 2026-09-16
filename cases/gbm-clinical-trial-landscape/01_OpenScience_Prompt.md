@@ -1,1 +1,1 @@
-I'd like to understand the current clinical-trial landscape for glioblastoma and where important research gaps may remain. Could you explore the available evidence and help me decide on a useful first investigation?
+I'd like to understand the current clinical-trial landscape for glioblastoma and where important research gaps may remain. Could you explore the available evidence and help me decide on a useful first investigation? Please use English for our conversation and all deliverables.

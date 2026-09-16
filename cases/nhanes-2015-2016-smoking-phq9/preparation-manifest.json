@@ -1,13 +1,13 @@
 {
   "case_id": "nhanes-2015-2016-smoking-phq9",
-  "protocol_id": "nhanes-smoking-phq9-conversation-v2.0.0",
+  "protocol_id": "nhanes-smoking-phq9-conversation-v2.0.1",
   "framework_version": "2.0.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/case-spec.json",
-      "sha256": "e47375749add70f544cb40a5b6c403a8a592e422cb2cb6b716f882a410e14c61"
+      "sha256": "ef62027d467ba0eb1ee62e5adce54fe12daa3e56bafe0e9915bcc8d36f704aa6"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -61,23 +61,23 @@
   "files": [
     {
       "path": "01_OpenScience_Prompt.md",
-      "bytes": 251,
-      "sha256": "cd07756c0a106dac9fa9881d746d99ab8eef4397e34033e327569b797947165a"
+      "bytes": 447,
+      "sha256": "a558d64bd81a04e4abcc0fe92d043952f35198ffdc92874fc7381d05c9b0f2ee"
     },
     {
       "path": "02_Post_Run_Collection.md",
       "bytes": 3056,
-      "sha256": "682b05735f041024c416c3a6ef4269002ba1fe4bf1e01db4213348e5b752df65"
+      "sha256": "6e72bc9a59d6f34f6a704ca1f02895b7e6b29fd88e335a21fcd468171cb72e60"
     },
     {
       "path": "03_Human_Record_Sheet.md",
       "bytes": 2610,
-      "sha256": "6764af68d5e6f9c22ca33973d83e5498abaadf50067a5b94eefaca7b0f278b9b"
+      "sha256": "6f2be5159046911d0b64f2716baa2c83c90b930f88e92eea8c4cb43f2273c2b0"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
-      "bytes": 6846,
-      "sha256": "bddc185e8316f266ec957ce14bc40a6165f77cf20fe61969d76ebc6dad216dd1"
+      "bytes": 6992,
+      "sha256": "3dd8813b9efab66088a84257f14a636d69e01356aede5655e4b8ff794f3d0af3"
     },
     {
       "path": "design-basis/checklist-alignment.md",
@@ -116,8 +116,8 @@
     },
     {
       "path": "START_Run_Case_with_Codex.md",
-      "bytes": 4084,
-      "sha256": "596851980f6901a2d14bd7f4f143e44ba44cbff75aae86ccb12bc3fb73308f50"
+      "bytes": 4124,
+      "sha256": "8cb30acd0147b38835fc5af4796c77958988cbe1527d0207140c9f081072fc20"
     }
   ]
 }
