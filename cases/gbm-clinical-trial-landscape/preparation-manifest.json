@@ -7,7 +7,7 @@
   "inputs": [
     {
       "source_relative_path": "cases/gbm-clinical-trial-landscape/case-spec.json",
-      "sha256": "fe598add07d807ce79a8c9fb77560eaf1700cbeb07ac54a51ed832f8d9ec54d2"
+      "sha256": "4474de76235e8b7a85168297ddb62e74cd72cafdc5c02db47eb21c9afffb34e1"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",

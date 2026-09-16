@@ -7,7 +7,7 @@
   "inputs": [
     {
       "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/case-spec.json",
-      "sha256": "ef62027d467ba0eb1ee62e5adce54fe12daa3e56bafe0e9915bcc8d36f704aa6"
+      "sha256": "3b95ff85851106f0c9db20bc83995d865d924adc7453874ec1b7dde494086951"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
