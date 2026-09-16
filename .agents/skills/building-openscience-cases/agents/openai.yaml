@@ -1,0 +1,6 @@
+interface:
+  display_name: "Build OpenScience Research Cases"
+  short_description: "Prepare realistic research conversations and evidence"
+  default_prompt: "Use $building-openscience-cases to prepare a research conversation and its external operating and assessment materials."
+policy:
+  allow_implicit_invocation: true

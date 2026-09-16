@@ -1,0 +1,1 @@
+I'd like to investigate how cigarette smoking relates to depressive symptoms using NHANES 2015–2016. I'm interested in the pattern and what might explain it. Could you explore what the data can support and help me decide on a useful first analysis?

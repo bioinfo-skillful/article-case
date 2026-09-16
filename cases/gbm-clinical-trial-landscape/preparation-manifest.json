@@ -1,0 +1,123 @@
+{
+  "case_id": "gbm-clinical-trial-landscape",
+  "protocol_id": "gbm-trial-landscape-conversation-v2.0.0",
+  "framework_version": "2.0.0",
+  "status": "prepared_not_live_validated",
+  "prepared_date": "2026-09-16",
+  "inputs": [
+    {
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/case-spec.json",
+      "sha256": "0bead2e858e0f7bcc08179fab9183c40ab5ab008a62c5de2bc9811303e7263a9"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
+      "sha256": "4501aabc3769dd4d102065bf9f86ff15263b27e215369d414d32c3ae0927506f"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/02_Post_Run_Collection.md",
+      "sha256": "16cdfc3d3b5200207e5e186d948961a20a5af32352d4d690bb176ff6131ecb04"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/03_Human_Record_Sheet.md",
+      "sha256": "50a5381afdb9e1224c5e071f5f44bdb44c54858b1e465dca72aee8e4d1911eef"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/04_Checklist_Alignment_and_Evaluation.md",
+      "sha256": "71c02f9e390e7f0bc7b72c40bd749035a90ce071117cdc78063c68313b210d48"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/START_Run_Case_with_Codex.md",
+      "sha256": "b83db922178a3657db9da6df597d46b16aab4b27ca3218bf23ef3a692d1f4753"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/checklist-alignment.md",
+      "sha256": "4168a1127418ed1fbfec497d64c2805d9e352a750acce6c6a991a1c74292b454"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/CONTEXT.md",
+      "sha256": "1485a06617d9b31d533792d9b681023475395149115beb2ac164b22fb6c4de6d"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/evidence-collection.md",
+      "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/operating-contract.md",
+      "sha256": "3fb418346e5e78459ee042aa9848d081dfbdaf7e753e8229ed5b36171d3f0a4d"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/operator-checklist.md",
+      "sha256": "a4177f86ff3aaffc656ae3672e739ee9a1d464558c810be22e45d0b93f022006"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/source-manifest.json",
+      "sha256": "d3ae6fc69a808e97570b20d4820854942a8447f54acb5c2baeaf5fc670781bde"
+    }
+  ],
+  "files": [
+    {
+      "path": "01_OpenScience_Prompt.md",
+      "bytes": 216,
+      "sha256": "b076eaeb59195de8a51caf3f1b916a9962e2d6c1b75b3c225668cd3bf43482bb"
+    },
+    {
+      "path": "02_Post_Run_Collection.md",
+      "bytes": 3052,
+      "sha256": "aa900080b8e98c4abb85c470090fb0639610e3202adc9d76f59bacdcdb556ceb"
+    },
+    {
+      "path": "03_Human_Record_Sheet.md",
+      "bytes": 2606,
+      "sha256": "d72f10b51bc8ea6ae7ec513b6605230758ce43e0b08638b2bb9ea23ad830e6b6"
+    },
+    {
+      "path": "04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 6934,
+      "sha256": "a3c08e77dcaae96b3205ccc54a243d3f43ab4edde725cd7f77e09972d905f21a"
+    },
+    {
+      "path": "design-basis/checklist-alignment.md",
+      "bytes": 8229,
+      "sha256": "4168a1127418ed1fbfec497d64c2805d9e352a750acce6c6a991a1c74292b454"
+    },
+    {
+      "path": "design-basis/CONTEXT.md",
+      "bytes": 3224,
+      "sha256": "1485a06617d9b31d533792d9b681023475395149115beb2ac164b22fb6c4de6d"
+    },
+    {
+      "path": "design-basis/evidence-collection.md",
+      "bytes": 7188,
+      "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
+    },
+    {
+      "path": "design-basis/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "bytes": 44525,
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "path": "design-basis/operating-contract.md",
+      "bytes": 11821,
+      "sha256": "3fb418346e5e78459ee042aa9848d081dfbdaf7e753e8229ed5b36171d3f0a4d"
+    },
+    {
+      "path": "design-basis/operator-checklist.md",
+      "bytes": 6172,
+      "sha256": "a4177f86ff3aaffc656ae3672e739ee9a1d464558c810be22e45d0b93f022006"
+    },
+    {
+      "path": "design-basis/source-manifest.json",
+      "bytes": 599,
+      "sha256": "d3ae6fc69a808e97570b20d4820854942a8447f54acb5c2baeaf5fc670781bde"
+    },
+    {
+      "path": "START_Run_Case_with_Codex.md",
+      "bytes": 4051,
+      "sha256": "db34aa7639d22f77d3b2258e0605012553f4fe5541f396d2c47316d7bbc6baec"
+    }
+  ]
+}
