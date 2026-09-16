@@ -1,0 +1,6 @@
+interface:
+  display_name: "OpenScience Human Review"
+  short_description: "Operate native plans, auto-review, and Reproduction evidence"
+  default_prompt: "Use $openscience-human-review to operate this OpenScience case, monitor it through the next human decision point, and preserve all required checkpoint evidence."
+policy:
+  allow_implicit_invocation: true

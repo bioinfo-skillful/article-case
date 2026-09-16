@@ -1,0 +1,10 @@
+# Runtime evidence stays outside this preparation repository.
+**/run_[0-9]*/
+**/human_records/
+**/runtime-evidence/
+**/__pycache__/
+.venv/
+.env
+.env.*
+*.log
+*.zip

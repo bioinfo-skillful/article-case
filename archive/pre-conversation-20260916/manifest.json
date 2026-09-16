@@ -1,0 +1,379 @@
+{
+  "snapshot_date": "2026-09-16",
+  "captured_at": "2026-09-16T01:44:44.464045+00:00",
+  "scope": "Preparation only; separate historical bundles, not one reconstructed release",
+  "source_workspace_label": "open-science-server",
+  "files": [
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/agents/openai.yaml",
+      "archive_path": "skills/building-openscience-cases/agents/openai.yaml",
+      "bytes": 282,
+      "sha256": "82fee6a5081505f6e4ea34ffc1387eb2ac8992a9ff5a6b0e33ac798b9c29242a"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
+      "archive_path": "skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
+      "bytes": 1052,
+      "sha256": "951fe3f2360859d01838c37216d31671d4b52cf9c8c638908ff8acb445ce48d4"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/02_Post_Run_Collection.md",
+      "archive_path": "skills/building-openscience-cases/assets/case-template/02_Post_Run_Collection.md",
+      "bytes": 3283,
+      "sha256": "5208cacaee4879ca296272a7b4b016c2088ff939fcd4842d77d4e569cae7810e"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/03_Human_Record_Sheet.md",
+      "archive_path": "skills/building-openscience-cases/assets/case-template/03_Human_Record_Sheet.md",
+      "bytes": 3272,
+      "sha256": "8aaa88a732ba8bf0070c4883df5f11cf45ad1605adb82c90bbd5f1ad3fb5d1d5"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/04_Checklist_Alignment_and_Evaluation.md",
+      "archive_path": "skills/building-openscience-cases/assets/case-template/04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 16618,
+      "sha256": "bc4c216d6d33b9dd769d1b7d95edb69f96654eb1a08277f43978d5d9c7a20c74"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/START_Run_Case_with_Codex.md",
+      "archive_path": "skills/building-openscience-cases/assets/case-template/START_Run_Case_with_Codex.md",
+      "bytes": 4887,
+      "sha256": "767c56936880e5d64868e2fffe307bdb28581d6f1de58b2c9e36b0ce7f1ab0e9"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/CONTEXT.md",
+      "archive_path": "skills/building-openscience-cases/references/CONTEXT.md",
+      "bytes": 2538,
+      "sha256": "fbf86c02274ca96453160330e40b632947dbd37436e423ca79f477fd801edbd4"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/evidence-collection.md",
+      "archive_path": "skills/building-openscience-cases/references/evidence-collection.md",
+      "bytes": 9021,
+      "sha256": "73b1e1eae381848398d964f7e49095d18424fc788e3ce139c5140bd08db40448"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "archive_path": "skills/building-openscience-cases/references/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "bytes": 44525,
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/operating-contract.md",
+      "archive_path": "skills/building-openscience-cases/references/operating-contract.md",
+      "bytes": 10607,
+      "sha256": "29452042b3c649bcd447911939f2884cc62b720561082148615f33305d524664"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/source-manifest.json",
+      "archive_path": "skills/building-openscience-cases/references/source-manifest.json",
+      "bytes": 430,
+      "sha256": "89e42de84a008a538de8209a618f77ebc327b0483c9dfc8ec2dc357c412ab124"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/building-openscience-cases/SKILL.md",
+      "archive_path": "skills/building-openscience-cases/SKILL.md",
+      "bytes": 4471,
+      "sha256": "b9fd8b2684973bea0c7f165a6069774412ea35f97514e84cdadef2ef11750df1"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/openscience-human-review/agents/openai.yaml",
+      "archive_path": "skills/openscience-human-review/agents/openai.yaml",
+      "bytes": 361,
+      "sha256": "856677cc5ea674ab75879493d2ed4436d311a9c5a7f55a9b2ab312c8221af9f0"
+    },
+    {
+      "bundle": "framework",
+      "source_relative_path": ".agents/skills/openscience-human-review/SKILL.md",
+      "archive_path": "skills/openscience-human-review/SKILL.md",
+      "bytes": 11903,
+      "sha256": "eaa292669d66714b16ae750d8c852c165183904edff930505eee7a48d60d2e07"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/01_OpenScience_Prompt.md",
+      "archive_path": "cases/nhanes-current/01_OpenScience_Prompt.md",
+      "bytes": 7805,
+      "sha256": "69b208b78e8022c74affe3076a6342e97788cf46f2b0e7d252fd7d5b9424746d"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/02_Post_Run_Collection.md",
+      "archive_path": "cases/nhanes-current/02_Post_Run_Collection.md",
+      "bytes": 5984,
+      "sha256": "f91e89f67996dff86781f30c1734e2760f5fd45028307f34ad4565306625e44b"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/03_Human_Record_Sheet.md",
+      "archive_path": "cases/nhanes-current/03_Human_Record_Sheet.md",
+      "bytes": 3846,
+      "sha256": "862df45e3e61781a114271d2bb89edf15e2d51db440ad0e5314cdeacc9e14d62"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/04_Checklist_Alignment_and_Evaluation.md",
+      "archive_path": "cases/nhanes-current/04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 30475,
+      "sha256": "2ea1b87762e4d31d0adacb198a0001281523b9437ae265e43f063cfa48742e35"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/START_Run_Case_with_Codex.md",
+      "archive_path": "cases/nhanes-current/START_Run_Case_with_Codex.md",
+      "bytes": 7625,
+      "sha256": "469bf3f56efda22006b7cb6a83d9c65152dde0cb0a810a28b12fb20bdb520669"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/设计依据/CONTEXT.md",
+      "archive_path": "cases/nhanes-current/设计依据/CONTEXT.md",
+      "bytes": 2538,
+      "sha256": "fbf86c02274ca96453160330e40b632947dbd37436e423ca79f477fd801edbd4"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/设计依据/evidence-collection.md",
+      "archive_path": "cases/nhanes-current/设计依据/evidence-collection.md",
+      "bytes": 9021,
+      "sha256": "73b1e1eae381848398d964f7e49095d18424fc788e3ce139c5140bd08db40448"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "archive_path": "cases/nhanes-current/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "bytes": 44525,
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/设计依据/operating-contract.md",
+      "archive_path": "cases/nhanes-current/设计依据/operating-contract.md",
+      "bytes": 10607,
+      "sha256": "29452042b3c649bcd447911939f2884cc62b720561082148615f33305d524664"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/设计依据/source-manifest.json",
+      "archive_path": "cases/nhanes-current/设计依据/source-manifest.json",
+      "bytes": 430,
+      "sha256": "89e42de84a008a538de8209a618f77ebc327b0483c9dfc8ec2dc357c412ab124"
+    },
+    {
+      "bundle": "nhanes-current",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/设计依据/本题设计说明.md",
+      "archive_path": "cases/nhanes-current/设计依据/本题设计说明.md",
+      "bytes": 2176,
+      "sha256": "5e71b19f9f70215c38dffc66b67087b39f7e6729ed32cd489d11863ef72db25a"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/01_OpenScience_Prompt.md",
+      "archive_path": "cases/gbm-current/01_OpenScience_Prompt.md",
+      "bytes": 5369,
+      "sha256": "a93934880a3543a8f71d53eea1a3ddb6fe8c6e37974ed331b6dced4d60d16fbe"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/02_Post_Run_Collection.md",
+      "archive_path": "cases/gbm-current/02_Post_Run_Collection.md",
+      "bytes": 3345,
+      "sha256": "3111ba89335b353ace9ea7c316786fab9ba0447ba96e51d09782ed671cece282"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/03_Human_Record_Sheet.md",
+      "archive_path": "cases/gbm-current/03_Human_Record_Sheet.md",
+      "bytes": 3460,
+      "sha256": "ed63cea8f2c2305c22aafc55685463e41643e0bf0c7dac28463db15621f9c861"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/04_Checklist_Alignment_and_Evaluation.md",
+      "archive_path": "cases/gbm-current/04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 27535,
+      "sha256": "7145f2a8651cb8490cb7f3d6c274feb23d34c2a9a98dc5732df9a49737a4bd88"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/START_Run_Case_with_Codex.md",
+      "archive_path": "cases/gbm-current/START_Run_Case_with_Codex.md",
+      "bytes": 6507,
+      "sha256": "54fdc44fe636a627af1809bbf6e75084c8fe5c62e29adc89a85642ed8953723a"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/设计依据/CONTEXT.md",
+      "archive_path": "cases/gbm-current/设计依据/CONTEXT.md",
+      "bytes": 2538,
+      "sha256": "fbf86c02274ca96453160330e40b632947dbd37436e423ca79f477fd801edbd4"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/设计依据/evidence-collection.md",
+      "archive_path": "cases/gbm-current/设计依据/evidence-collection.md",
+      "bytes": 9021,
+      "sha256": "73b1e1eae381848398d964f7e49095d18424fc788e3ce139c5140bd08db40448"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "archive_path": "cases/gbm-current/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "bytes": 44525,
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/设计依据/operating-contract.md",
+      "archive_path": "cases/gbm-current/设计依据/operating-contract.md",
+      "bytes": 10607,
+      "sha256": "29452042b3c649bcd447911939f2884cc62b720561082148615f33305d524664"
+    },
+    {
+      "bundle": "gbm-current",
+      "source_relative_path": "cases/gbm-clinical-trial-landscape/设计依据/source-manifest.json",
+      "archive_path": "cases/gbm-current/设计依据/source-manifest.json",
+      "bytes": 430,
+      "sha256": "89e42de84a008a538de8209a618f77ebc327b0483c9dfc8ec2dc357c412ab124"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/01_OpenScience_Prompt.md",
+      "archive_path": "cases/nhanes-original-package/01_OpenScience_Prompt.md",
+      "bytes": 7805,
+      "sha256": "69b208b78e8022c74affe3076a6342e97788cf46f2b0e7d252fd7d5b9424746d"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/02_Post_Run_Collection.md",
+      "archive_path": "cases/nhanes-original-package/02_Post_Run_Collection.md",
+      "bytes": 5944,
+      "sha256": "cab85bbe9f1c8406d0dbaa8dcbe163acf0416617088b78cfc4fb714b9159957b"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/03_Human_Record_Sheet.md",
+      "archive_path": "cases/nhanes-original-package/03_Human_Record_Sheet.md",
+      "bytes": 3648,
+      "sha256": "0c84a8295d46c8797ec859b3adc902475d744d0c0ce61aaf828eaf5f6134396e"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/04_Checklist_Alignment_and_Evaluation.md",
+      "archive_path": "cases/nhanes-original-package/04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 30317,
+      "sha256": "2149bf9888a421af13f9c2a999d4acceccc472e68ab9df97d7806a8cb3116a0f"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/preparation_manifest.json",
+      "archive_path": "cases/nhanes-original-package/preparation_manifest.json",
+      "bytes": 3186,
+      "sha256": "75588255832a70ddb76c675d587e645496a988d561915fcc8170dbd48f5e919f"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/START_Run_Case_with_Codex.md",
+      "archive_path": "cases/nhanes-original-package/START_Run_Case_with_Codex.md",
+      "bytes": 7427,
+      "sha256": "9796ab593b38e37c0de2583897d218bd03cfe7e6f3cec536bb193551c2edc669"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "archive_path": "cases/nhanes-original-package/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "bytes": 44525,
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/设计依据/source-manifest.json",
+      "archive_path": "cases/nhanes-original-package/设计依据/source-manifest.json",
+      "bytes": 430,
+      "sha256": "89e42de84a008a538de8209a618f77ebc327b0483c9dfc8ec2dc357c412ab124"
+    },
+    {
+      "bundle": "nhanes-original-package",
+      "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/original-package/设计依据/本题设计说明.md",
+      "archive_path": "cases/nhanes-original-package/设计依据/本题设计说明.md",
+      "bytes": 2176,
+      "sha256": "5e71b19f9f70215c38dffc66b67087b39f7e6729ed32cd489d11863ef72db25a"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/01_OpenScience_Prompt.md",
+      "archive_path": "cases/gbm-before-run005/01_OpenScience_Prompt.md",
+      "bytes": 4638,
+      "sha256": "b83b8ed3db979cf69d84857125aa472bc96af65aab6a0bc3dbaa01c9c119a4d8"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/02_Post_Run_Collection.md",
+      "archive_path": "cases/gbm-before-run005/02_Post_Run_Collection.md",
+      "bytes": 2147,
+      "sha256": "5354ac7b58561c3cd60f4452b2e7a0b87f24ac84de8338a2af31c8ce40a6f8ef"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/03_Human_Record_Sheet.md",
+      "archive_path": "cases/gbm-before-run005/03_Human_Record_Sheet.md",
+      "bytes": 2125,
+      "sha256": "a9ae4135ef1095c5a13cd6e87bd0f4da38a654e7d2cc932dd98b1d31899f4e86"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/04_Checklist_Alignment_and_Evaluation.md",
+      "archive_path": "cases/gbm-before-run005/04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 8956,
+      "sha256": "64f1838d5543154ce8808c29ca49003f5af607096b55731055d1351155ff2d51"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/checklist-item-map.md",
+      "archive_path": "cases/gbm-before-run005/checklist-item-map.md",
+      "bytes": 11046,
+      "sha256": "8fb84ccefc18f602365094bcd26cf1a34c5bc5c35b5ef8f78a543d01afa67421"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/LEARN_THE_SKILLS.md",
+      "archive_path": "cases/gbm-before-run005/LEARN_THE_SKILLS.md",
+      "bytes": 1567,
+      "sha256": "e7dae0eb3619d84cf8ed12de9d360323e034eef582a698cf217838f7323d2ac6"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/START_Run_Case_with_Codex.md",
+      "archive_path": "cases/gbm-before-run005/START_Run_Case_with_Codex.md",
+      "bytes": 5957,
+      "sha256": "b0fe937299fedce64601c439fb4a56ded2483d76d19f7984798b0f321380555e"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "archive_path": "cases/gbm-before-run005/设计依据/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
+      "bytes": 44525,
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+    },
+    {
+      "bundle": "gbm-before-run005",
+      "source_relative_path": "case-archives/gbm-clinical-trial-landscape-before-run005-20260912/设计依据/source-manifest.json",
+      "archive_path": "cases/gbm-before-run005/设计依据/source-manifest.json",
+      "bytes": 430,
+      "sha256": "89e42de84a008a538de8209a618f77ebc327b0483c9dfc8ec2dc357c412ab124"
+    }
+  ]
+}

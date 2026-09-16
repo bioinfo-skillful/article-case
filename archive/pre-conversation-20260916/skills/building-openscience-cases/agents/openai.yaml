@@ -1,0 +1,4 @@
+interface:
+  display_name: "构建 OpenScience Case"
+  short_description: "准备原生计划、运行中自动审阅、复现与独立核验的通用Case材料"
+  default_prompt: "使用 $building-openscience-cases 根据我的Case条件生成START与01–04五份准备材料。"

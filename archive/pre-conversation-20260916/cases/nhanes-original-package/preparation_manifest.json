@@ -1,0 +1,90 @@
+{
+  "case_id": "NHANES_2015_2016_SMOKING_PHQ9",
+  "version": "1.0",
+  "status": "prepared_not_run",
+  "target": "D:\\case_all\\case1_NHANES",
+  "files": [
+    {
+      "path": "01_OpenScience_Prompt.md",
+      "sha256": "69b208b78e8022c74affe3076a6342e97788cf46f2b0e7d252fd7d5b9424746d",
+      "bytes": 7805
+    },
+    {
+      "path": "02_Post_Run_Collection.md",
+      "sha256": "cab85bbe9f1c8406d0dbaa8dcbe163acf0416617088b78cfc4fb714b9159957b",
+      "bytes": 5944
+    },
+    {
+      "path": "03_Human_Record_Sheet.md",
+      "sha256": "0c84a8295d46c8797ec859b3adc902475d744d0c0ce61aaf828eaf5f6134396e",
+      "bytes": 3648
+    },
+    {
+      "path": "04_Checklist_Alignment_and_Evaluation.md",
+      "sha256": "2149bf9888a421af13f9c2a999d4acceccc472e68ab9df97d7806a8cb3116a0f",
+      "bytes": 30317
+    },
+    {
+      "path": "human_records/run_001/attempts.csv",
+      "sha256": "219ea6b62d7e00ac163316f3f6c2daf4b71db8e2177e19fd600526b677f8c982",
+      "bytes": 156
+    },
+    {
+      "path": "human_records/run_001/events.csv",
+      "sha256": "c7cea6bdbe8925f8aad5185df0b3e8e139b0b892395e9bb87764aaaa133a9c83",
+      "bytes": 140
+    },
+    {
+      "path": "human_records/run_001/finding_ledger.csv",
+      "sha256": "bfe25e7428c993819141e2295fc12fe9d08894e561029d7077dbfadf3be02824",
+      "bytes": 133
+    },
+    {
+      "path": "human_records/run_001/handoff.md",
+      "sha256": "3190a859489dce6a46012de4c4a39833dc1ac3442f141c02c2619738244271d6",
+      "bytes": 639
+    },
+    {
+      "path": "human_records/run_001/human_actions.csv",
+      "sha256": "c1a6a4dba40820a9ae52e414234caab0f233ae24c3375e959c7e56b13cf519f6",
+      "bytes": 98
+    },
+    {
+      "path": "human_records/run_001/issue_ledger.csv",
+      "sha256": "b6bd5e60098e827f57240ebc25eb4a6cfc9e95d37a38229122250bdacd66d94b",
+      "bytes": 226
+    },
+    {
+      "path": "human_records/run_001/missing_materials.csv",
+      "sha256": "42b7cc125838c1b143fc20468c83d3f99ea668126e543f818da379c9faa6fe43",
+      "bytes": 76
+    },
+    {
+      "path": "human_records/run_001/screenshots.csv",
+      "sha256": "774536e472a1d7c015f78c569010681ee7bf90c9a1a336897db001d9dc96167a",
+      "bytes": 80
+    },
+    {
+      "path": "START_Run_Case_with_Codex.md",
+      "sha256": "9796ab593b38e37c0de2583897d218bd03cfe7e6f3cec536bb193551c2edc669",
+      "bytes": 7427
+    },
+    {
+      "path": "\u8bbe\u8ba1\u4f9d\u636e/OpenScience_Case\u8fd0\u884cChecklist_\u6307\u6807\u4e0e\u6587\u732e_v0.2_20260910.md",
+      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034",
+      "bytes": 44525
+    },
+    {
+      "path": "\u8bbe\u8ba1\u4f9d\u636e/source-manifest.json",
+      "sha256": "89e42de84a008a538de8209a618f77ebc327b0483c9dfc8ec2dc357c412ab124",
+      "bytes": 430
+    },
+    {
+      "path": "\u8bbe\u8ba1\u4f9d\u636e/\u672c\u9898\u8bbe\u8ba1\u8bf4\u660e.md",
+      "sha256": "5e71b19f9f70215c38dffc66b67087b39f7e6729ed32cd489d11863ef72db25a",
+      "bytes": 2176
+    }
+  ],
+  "documentation_language": "English outside the preserved design-basis directory",
+  "documentation_revision": "1.1-language-only"
+}
