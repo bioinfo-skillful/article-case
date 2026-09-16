@@ -1,0 +1,1 @@
+I’d like to conduct a retrospective study of how pathological stage relates to overall survival in clear-cell renal cancer using the TCGA PanCancer Atlas clinical data. My aim is to understand what this cohort can tell us and what limitations matter for interpreting the relationship. Could you assess the available data and propose a useful first analysis?

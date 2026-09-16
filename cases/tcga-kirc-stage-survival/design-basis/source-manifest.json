@@ -1,0 +1,14 @@
+{
+  "version": "v0.2",
+  "source_label": "User-supplied checklist v0.2, preserved in the pre-conversation preparation archive",
+  "archive_source_relative_path": "archive/pre-conversation-20260916/skills/building-openscience-cases/references/OpenScience_Case\u8fd0\u884cChecklist_\u6307\u6807\u4e0e\u6587\u732e_v0.2_20260910.md",
+  "preservation": "Original source remains unchanged in archive. Active skills and cases use the separately hashed English edition.",
+  "original_file": "OpenScience_Case\u8fd0\u884cChecklist_\u6307\u6807\u4e0e\u6587\u732e_v0.2_20260910.md",
+  "original_sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034",
+  "original_size_bytes": 44525,
+  "file": "OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
+  "sha256": "7871cfc92cf76b80f07dcec05a9a84c4ba2111eb8a4238fb0ba2ca01849eb304",
+  "size_bytes": 41070,
+  "edition": "English working edition; condensed restatement retaining all original sections and assessment categories, with conversation applicability stated explicitly. Not the original bytes.",
+  "prepared_date": "2026-09-16"
+}

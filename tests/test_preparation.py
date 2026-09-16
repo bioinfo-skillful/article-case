@@ -34,6 +34,18 @@ class PreparationTests(unittest.TestCase):
         p.write_bytes(p.read_bytes() + b'\nchanged\n')
         self.assertTrue(any('Archive bytes changed' in e for e in validate(self.root)['errors']))
 
+    def test_case_source_identity_changes_require_manifest_refresh(self):
+        case = self.root / 'cases/covid-haemodialysis-proteomics'
+        source = case / 'sources/source-manifest.json'
+        obj = json.loads(source.read_text(encoding='utf-8'))
+        obj['files'][0]['sha256'] = '0' * 64
+        source.write_text(json.dumps(obj), encoding='utf-8')
+        self.assertTrue(any('Stale generated preparation' in e for e in validate(self.root)['errors']))
+        build(self.root)
+        manifest = json.loads((case / 'preparation-manifest.json').read_text(encoding='utf-8'))
+        self.assertIn('sources/source-manifest.json', [f['path'] for f in manifest['files']])
+        self.assertTrue(validate(self.root)['ok'])
+
     def test_old_case_snapshot_detected_and_generation_repairs_only_preparation(self):
         spec = self.root / 'cases/gbm-clinical-trial-landscape/case-spec.json'
         obj = json.loads(spec.read_text(encoding='utf-8'))

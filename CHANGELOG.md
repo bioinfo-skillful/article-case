@@ -1,5 +1,12 @@
 # Changelog
 
+## Local preparation addition: Case2 and Case3 — 2026-09-16
+
+- Added conversational longitudinal proteomics and retrospective kidney-cancer survival packages with verbatim approved openings and open method choices.
+- Added verified source identities and case-resource hashes to preparation generation; retained framework version 2.0.0 and existing preparations.
+- Removed inherited scientific/output quotas from the new protocols; added conditional assessments and follow-ups.
+- NHANES repeats 2 and 3 deferred. Preparation only, not live validation; no commit or publication performed.
+
 ## English reference audit — 2026-09-16
 
 - Replaced all three active Chinese checklist copies with an English working edition retaining sections 1–10, CP0–CP7, assessment categories, numerical examples and bibliography.

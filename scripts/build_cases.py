@@ -29,6 +29,11 @@ def build(root=ROOT, check=False):
         spec_path = case / 'case-spec.json'
         spec = json.loads(spec_path.read_text(encoding='utf-8'))
         outputs = {}
+        # Case-local source records travel with the generated preparation and
+        # are covered by its integrity manifest, without embedding run evidence.
+        resources = sorted(p for p in (case / 'sources').rglob('*') if p.is_file())
+        for resource in resources:
+            outputs[resource.relative_to(case)] = resource.read_bytes()
         for template in templates:
             text = template.read_text(encoding='utf-8')
             def replacement(match):
@@ -44,7 +49,7 @@ def build(root=ROOT, check=False):
             'framework_version': config['version'], 'status': 'prepared_not_live_validated',
             'prepared_date': config['release_date'],
             'inputs': [{'source_relative_path': p.relative_to(root).as_posix(),
-                        'sha256': digest(p.read_bytes())} for p in [spec_path, *templates, *refs]],
+                        'sha256': digest(p.read_bytes())} for p in [spec_path, *templates, *refs, *resources]],
             'files': [{'path': path.as_posix(), 'bytes': len(data), 'sha256': digest(data)}
                       for path, data in sorted(outputs.items())],
         }

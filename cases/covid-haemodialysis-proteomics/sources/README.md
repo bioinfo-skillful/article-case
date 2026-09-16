@@ -1,0 +1,9 @@
+# Case2 scientific input preparation
+
+These are source instructions for the operator, not an analysis recipe. The approved opening refers to actual longitudinal plasma data. Before a future launch, download the two CSVs listed in [source-manifest.json](source-manifest.json) to a fresh scientific-input location, verify their byte lengths and SHA-256 values, and attach them through native OpenScience controls. Keep their original names and bytes. Do not submit the opening as though data were attached if acquisition failed.
+
+The files come from the public plasma subcohort in Gisby and colleagues' longitudinal Olink study. Use the pinned author README for column meanings and attribution (CC BY 4.0). It describes NPX as normalized log2 expression and identifies participant, sample and assay fields. The public age field is binned; do not assume exact ages are available. Source documentation is legitimate scientific context, not a prescribed solution. Neither the author's analysis script nor historical case outputs are initial attachments.
+
+The preparation package contains source identities rather than the CSV bytes. Acquisition was checked during preparation, but future access must be verified again. Record actual acquisition time, URL, hash, attachment identifiers and source documentation in the future run's external evidence. An unavailable source is a launch condition to resolve, not permission to synthesize replacement observations.
+
+Optional scientific context to accompany the unchanged opening: "The attached plasma files are from the public longitudinal Olink dataset by Gisby and colleagues. Please use English for our discussion and deliverables." Supply the documented source URL as context. Do not attach START, 02-04, design-basis, private assessments or the whole preparation ZIP.

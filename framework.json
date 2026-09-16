@@ -4,7 +4,7 @@
   "mode": "research-conversation",
   "status": "preparation-only",
   "skills": ["building-openscience-cases", "openscience-human-review"],
-  "cases": ["nhanes-2015-2016-smoking-phq9", "gbm-clinical-trial-landscape"],
+  "cases": ["nhanes-2015-2016-smoking-phq9", "gbm-clinical-trial-landscape", "covid-haemodialysis-proteomics", "tcga-kirc-stage-survival"],
   "archive": "archive/pre-conversation-20260916",
   "master_checklist_sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
 }

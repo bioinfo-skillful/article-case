@@ -1,0 +1,34 @@
+{
+  "repository": "cBioPortal/datahub",
+  "commit": "5825baf55337d6fbdca092065b056d5acc625a11",
+  "study": "kirc_tcga_pan_can_atlas_2018",
+  "attribution": "TCGA PanCancer Atlas; cBioPortal Datahub clinical distribution",
+  "files": [
+    {
+      "file": "data_clinical_patient.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/5825baf55337d6fbdca092065b056d5acc625a11/public/kirc_tcga_pan_can_atlas_2018/data_clinical_patient.txt",
+      "bytes": 148548,
+      "sha256": "4f277b51a641e783d24e04417beaf6b56f192be49d4754be7c3b915e57afab0c",
+      "role": "agent-acquired clinical input"
+    },
+    {
+      "file": "meta_study.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/5825baf55337d6fbdca092065b056d5acc625a11/public/kirc_tcga_pan_can_atlas_2018/meta_study.txt",
+      "bytes": 610,
+      "sha256": "bf27006bee62ca8163d2db5520f5a76fc4731e4c90da30a330f64505ce066dce",
+      "role": "study metadata"
+    },
+    {
+      "file": "meta_clinical_patient.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/5825baf55337d6fbdca092065b056d5acc625a11/public/kirc_tcga_pan_can_atlas_2018/meta_clinical_patient.txt",
+      "bytes": 158,
+      "sha256": "e0dab0fa8c8fb0961ebfc5548afd6526c024930d7f9bc281d70db22db65d1ca7",
+      "role": "patient metadata"
+    }
+  ],
+  "schema_version": 1,
+  "verified_date": "2026-09-16",
+  "verification": "Fresh HTTPS retrieval, SHA-256 and byte count; header/documentation inspection only. No scientific estimates computed.",
+  "raw_data_bundled": false,
+  "live_validation": false
+}

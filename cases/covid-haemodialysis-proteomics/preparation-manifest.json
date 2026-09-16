@@ -1,0 +1,141 @@
+{
+  "case_id": "covid-haemodialysis-proteomics",
+  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.0.0",
+  "framework_version": "2.0.0",
+  "status": "prepared_not_live_validated",
+  "prepared_date": "2026-09-16",
+  "inputs": [
+    {
+      "source_relative_path": "cases/covid-haemodialysis-proteomics/case-spec.json",
+      "sha256": "956d1265ce962f9918db011e6af373f8f4ea1d6c6f957b4933134223f61bb207"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
+      "sha256": "4501aabc3769dd4d102065bf9f86ff15263b27e215369d414d32c3ae0927506f"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/02_Post_Run_Collection.md",
+      "sha256": "16cdfc3d3b5200207e5e186d948961a20a5af32352d4d690bb176ff6131ecb04"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/03_Human_Record_Sheet.md",
+      "sha256": "50a5381afdb9e1224c5e071f5f44bdb44c54858b1e465dca72aee8e4d1911eef"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/04_Checklist_Alignment_and_Evaluation.md",
+      "sha256": "71c02f9e390e7f0bc7b72c40bd749035a90ce071117cdc78063c68313b210d48"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/START_Run_Case_with_Codex.md",
+      "sha256": "b83db922178a3657db9da6df597d46b16aab4b27ca3218bf23ef3a692d1f4753"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/checklist-alignment.md",
+      "sha256": "763c95d9eda379101c7b89000e836da5503d349898b76e5002c28693b6c0c6e3"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/CONTEXT.md",
+      "sha256": "1485a06617d9b31d533792d9b681023475395149115beb2ac164b22fb6c4de6d"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/evidence-collection.md",
+      "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
+      "sha256": "7871cfc92cf76b80f07dcec05a9a84c4ba2111eb8a4238fb0ba2ca01849eb304"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/operating-contract.md",
+      "sha256": "3fb418346e5e78459ee042aa9848d081dfbdaf7e753e8229ed5b36171d3f0a4d"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/operator-checklist.md",
+      "sha256": "a4177f86ff3aaffc656ae3672e739ee9a1d464558c810be22e45d0b93f022006"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/source-manifest.json",
+      "sha256": "b3001c2b7b35c1c0d1ea496ed47c544503330926c811b36985956f212c61eed6"
+    },
+    {
+      "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/README.md",
+      "sha256": "f7c4c02c9807791b98a6a7ba12934867efe87287e2d1b14e673b40b99911ca7b"
+    },
+    {
+      "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/source-manifest.json",
+      "sha256": "8be8bbc36c91b1c66c6368442565c7701b2fc6924c784a5c1e7361fcc229386a"
+    }
+  ],
+  "files": [
+    {
+      "path": "01_OpenScience_Prompt.md",
+      "bytes": 392,
+      "sha256": "2ed5fddabae861f40801d15cf18db5eae80ddf4db4b8b4e68091dc5b997acdb6"
+    },
+    {
+      "path": "02_Post_Run_Collection.md",
+      "bytes": 3081,
+      "sha256": "cbc48203fa923f5338e4ac9781dac77c8ef0cb28644538dd107a1433282ec0ac"
+    },
+    {
+      "path": "03_Human_Record_Sheet.md",
+      "bytes": 2635,
+      "sha256": "c5ef9c41b4b90cfb568e0a64dce3d3cad6fc97906a8e95c6659360c9c683b31f"
+    },
+    {
+      "path": "04_Checklist_Alignment_and_Evaluation.md",
+      "bytes": 7007,
+      "sha256": "259880403cc9bbfd02033d6b1ffe776c98b3802b35ae7d85aef3bb31dda0569f"
+    },
+    {
+      "path": "design-basis/checklist-alignment.md",
+      "bytes": 8327,
+      "sha256": "763c95d9eda379101c7b89000e836da5503d349898b76e5002c28693b6c0c6e3"
+    },
+    {
+      "path": "design-basis/CONTEXT.md",
+      "bytes": 3224,
+      "sha256": "1485a06617d9b31d533792d9b681023475395149115beb2ac164b22fb6c4de6d"
+    },
+    {
+      "path": "design-basis/evidence-collection.md",
+      "bytes": 7188,
+      "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
+    },
+    {
+      "path": "design-basis/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
+      "bytes": 41070,
+      "sha256": "7871cfc92cf76b80f07dcec05a9a84c4ba2111eb8a4238fb0ba2ca01849eb304"
+    },
+    {
+      "path": "design-basis/operating-contract.md",
+      "bytes": 11821,
+      "sha256": "3fb418346e5e78459ee042aa9848d081dfbdaf7e753e8229ed5b36171d3f0a4d"
+    },
+    {
+      "path": "design-basis/operator-checklist.md",
+      "bytes": 6172,
+      "sha256": "a4177f86ff3aaffc656ae3672e739ee9a1d464558c810be22e45d0b93f022006"
+    },
+    {
+      "path": "design-basis/source-manifest.json",
+      "bytes": 1101,
+      "sha256": "b3001c2b7b35c1c0d1ea496ed47c544503330926c811b36985956f212c61eed6"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 1813,
+      "sha256": "f7c4c02c9807791b98a6a7ba12934867efe87287e2d1b14e673b40b99911ca7b"
+    },
+    {
+      "path": "sources/source-manifest.json",
+      "bytes": 1560,
+      "sha256": "8be8bbc36c91b1c66c6368442565c7701b2fc6924c784a5c1e7361fcc229386a"
+    },
+    {
+      "path": "START_Run_Case_with_Codex.md",
+      "bytes": 4611,
+      "sha256": "d62705ebfdf5db4cf665fee47af2b62388a28cf79efc1b5f38d7e59f4c8d191d"
+    }
+  ]
+}
