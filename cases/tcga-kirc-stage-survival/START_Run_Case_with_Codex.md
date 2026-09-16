@@ -1,6 +1,6 @@
 # Start: Case3: pathological stage and survival in clear-cell renal cancer
 
-Framework **2.0.0** · protocol **tcga-kirc-stage-survival-conversation-v2.0.0** · status **prepared; not live-validated**.
+Framework **2.1.0** · protocol **tcga-kirc-stage-survival-conversation-v2.1.0** · status **prepared; not live-validated**.
 
 The research direction is a retrospective study of pathological stage and overall survival using TCGA PanCancer Atlas clear-cell renal cancer clinical data. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 
@@ -31,3 +31,7 @@ When authorized, select a useful artifact and freeze its native Reproduction tar
 - If the first answer is sufficient, accept it and consider native Reproduction of a suitable output instead of requiring another model.
 
 These are examples, not a mandatory sequence or hidden output requirements. Choose based on actual findings and a recorded decision. Preserve all failed attempts; on finalization/revision conflict use only the allocated new-session allowance. Preparation alone does not start a run or prove any product capability.
+
+## Initialize collection before submission
+
+Read the [collection contract](design-basis/collection-layout.md). Use [blank collection templates](collection-template/README.md) and the [portable tool](collection-tools/evidence.py) to create a fresh evidence root outside this preparation and scientific workspace. Account for minimum categories, store screenshots beside their event, and preserve versions. Validate in progress and before final handoff; report evidence gaps separately from scientific outcomes.

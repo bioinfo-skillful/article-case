@@ -1,8 +1,10 @@
 # Evidence collection matrix
 
-Framework 2.0.0. Use with the [contract](operating-contract.md) and [operator checklist](operator-checklist.md). This specifies external records, not promised native API field names or files.
+Framework 2.1.0. Use with the [contract](operating-contract.md) and [operator checklist](operator-checklist.md). This specifies external records, not promised native API field names or files.
 
 ## Locate, collect and verify
+
+Use the required [collection layout and record formats](collection-layout.md) for every new attempt. Initialize its external root before submission and maintain category accounting during the run. Validate integrity on resumption and final handoff. Missing evidence remains a collection gap even when its absence is fully documented.
 
 Discover the installed version's supported UI/export/CLI/API before using it. Bind each operation to current project/session/attempt/stage IDs. Prefer immutable native versions. Read-only native files are secondary evidence after resolving their real storage location; do not write application databases or fabricate native state. Scientific prompts, source inputs and generated material are separate from external evaluation.
 

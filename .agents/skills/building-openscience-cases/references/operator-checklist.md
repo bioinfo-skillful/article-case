@@ -4,6 +4,8 @@ Copy the checklist into the external run record and mark done/pending/N/A with e
 
 ## Before submission
 
+- [ ] Initialize the external evidence root using the [collection contract](collection-layout.md), blank templates and portable tool; verify identity and separate scientific storage.
+
 - [ ] Read this case's protocol/version, opening, external assessment and frozen references; distinguish preparation from run evidence.
 - [ ] Ask for and record the five-class decision allocation and its limits, including recovery/restart, Reproduction and acceptance authority. Reuse an explicit allocation only for this same run.
 - [ ] Record total budget, stopping condition, restart allowance, operator-recovery allowance and replay limits; no unlimited implicit retries.
@@ -33,6 +35,8 @@ Copy the checklist into the external run record and mark done/pending/N/A with e
 - [ ] Maintain handoff, event/evidence indices, remaining budget and all decisions after meaningful transitions.
 
 ## Settle and decide
+
+- [ ] Complete manifest category accounting, REPORT/HANDOFF and file inventory; run final-handoff validation and report structural errors separately from evidence gaps.
 
 - [ ] Check both execution and all relevant review/correction activity are terminal; account for visible question cards separately.
 - [ ] Freeze final versions, promised-content status and last-review coverage; independently check science and reference validity.

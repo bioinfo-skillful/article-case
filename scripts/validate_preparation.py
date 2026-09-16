@@ -61,7 +61,7 @@ def validate(root=ROOT):
             errors.append(f'Publication contains a symlink: {rel}')
         if any(re.fullmatch(r'run_\d+', part) or part in {'human_records', 'runtime-evidence', 'node_modules'} for part in relative.parts):
             errors.append(f'Excluded runtime content present: {rel}')
-        if p.suffix.lower() not in {'.md', '.json', '.yaml', '.py'} and p.name not in {'.gitignore', '.gitattributes'}:
+        if p.suffix.lower() not in {'.md', '.json', '.jsonl', '.yaml', '.py'} and p.name not in {'.gitignore', '.gitattributes'}:
             errors.append(f'Unexpected publication file type: {rel}')
         if p.name.startswith('.env') or p.name in {'web-token', 'credentials.json'}:
             errors.append(f'Credential file present: {rel}')

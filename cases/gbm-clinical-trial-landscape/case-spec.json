@@ -1,6 +1,6 @@
 {
   "case_title": "Glioblastoma clinical-trial landscape",
-  "protocol_id": "gbm-trial-landscape-conversation-v2.0.1",
+  "protocol_id": "gbm-trial-landscape-conversation-v2.1.0",
   "direction": "the current glioblastoma clinical-trial landscape and evidence-supported research gaps",
   "opening_message": "I'd like to understand the current clinical-trial landscape for glioblastoma and where important research gaps may remain. Could you explore the available evidence and help me decide on a useful first investigation? Please use English for our conversation and all deliverables.",
   "initial_inputs": "prompt only; no trial snapshot or reference counts supplied",

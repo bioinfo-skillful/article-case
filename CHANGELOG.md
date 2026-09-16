@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.0 — preparation update, 2026-09-16
+
+- Standardized external evidence layout, minimum accounting, blank templates and record formats.
+- Added initialization, inventory and read-only validation with separate integrity errors and collection gaps.
+- Updated both skills and all four case protocol identities; scientific openings are unchanged.
+- Preserved archives and historical runs; publication to main was separately authorized after local review. No live run or historical evidence publication is included.
+
 ## Local preparation addition: Case2 and Case3 — 2026-09-16
 
 - Added conversational longitudinal proteomics and retrospective kidney-cancer survival packages with verbatim approved openings and open method choices.

@@ -1,13 +1,13 @@
 {
   "case_id": "covid-haemodialysis-proteomics",
-  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.0.0",
-  "framework_version": "2.0.0",
+  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.1.0",
+  "framework_version": "2.1.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/case-spec.json",
-      "sha256": "956d1265ce962f9918db011e6af373f8f4ea1d6c6f957b4933134223f61bb207"
+      "sha256": "e7cf1e0c1a3ab11412c5d5f7532d5393c13c8e744dee1293c89f9247c1b04af4"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -15,31 +15,35 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/02_Post_Run_Collection.md",
-      "sha256": "16cdfc3d3b5200207e5e186d948961a20a5af32352d4d690bb176ff6131ecb04"
+      "sha256": "6509ac0e17ea7cb331e36f5f079337bfe78aee7b2cc41b245874024187cfd9aa"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/03_Human_Record_Sheet.md",
-      "sha256": "50a5381afdb9e1224c5e071f5f44bdb44c54858b1e465dca72aee8e4d1911eef"
+      "sha256": "525805c6f7b84189df58744915cc0a79fc38fd691db1eb22b851f16136ffa9cc"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/04_Checklist_Alignment_and_Evaluation.md",
-      "sha256": "71c02f9e390e7f0bc7b72c40bd749035a90ce071117cdc78063c68313b210d48"
+      "sha256": "fdadd1cf0c86cd6a08ec6d1646f9a35a2eb3938d4ea1b1ae3992e9365de80d2f"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/START_Run_Case_with_Codex.md",
-      "sha256": "b83db922178a3657db9da6df597d46b16aab4b27ca3218bf23ef3a692d1f4753"
+      "sha256": "825250f7b71cff92eabe9df44d38c7822381f352fff5bb12efc184d7fce10c3d"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/checklist-alignment.md",
-      "sha256": "763c95d9eda379101c7b89000e836da5503d349898b76e5002c28693b6c0c6e3"
+      "sha256": "b913ebbdb23ea94e3bd4c63b5e637f3a98671e10becd48a1876cc2c8c7756d92"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/collection-layout.md",
+      "sha256": "ab8394cdf096a5553638b9865a499cba590775fdf0158be77f379d19992e4cf0"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/CONTEXT.md",
-      "sha256": "1485a06617d9b31d533792d9b681023475395149115beb2ac164b22fb6c4de6d"
+      "sha256": "44fcf30f653d1d84e13c0c8d8da9b10a33901fab854396f20f285fd261c28640"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/evidence-collection.md",
-      "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
+      "sha256": "b744e0eb24ef91b22bc4ec3017651579cebd47ec9f2d7ae7b4db466e0fec3ba4"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
@@ -47,11 +51,11 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/operating-contract.md",
-      "sha256": "3fb418346e5e78459ee042aa9848d081dfbdaf7e753e8229ed5b36171d3f0a4d"
+      "sha256": "27793a7c4bb99cd38b19f42efa2be233626a2edc8b2ec86253e1fb51c4381684"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/operator-checklist.md",
-      "sha256": "a4177f86ff3aaffc656ae3672e739ee9a1d464558c810be22e45d0b93f022006"
+      "sha256": "bd9bcdce1b3edbf636531d5bb0a13b7082c62fc45fc4488e217ca15f8038fb64"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/source-manifest.json",
@@ -64,6 +68,34 @@
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/source-manifest.json",
       "sha256": "0368af278a83a541ef7d0b2df2d5eca1724e89eb708f35a9ab41c735c6e3901d"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/evidence-index.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/HANDOFF.md",
+      "sha256": "5f4d558b5bbc969b7e3109cce20d2e2a1ee07234516a065779ed591d59c5f534"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/interventions.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/manifest.json",
+      "sha256": "d668a59ada7fc0dd5c271baab60c49e6cfc6cda5ee5fc3c9c40323b997efc130"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/README.md",
+      "sha256": "595ac9552e15a7791b107ad21b1f93b9e1df70ddd1fe12d0be6e84488082fc8f"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/REPORT.md",
+      "sha256": "8a3bf6c454a5c919ecc906cfbd3294134e604934df31bdd29fcafdd6c13d8e1a"
+    },
+    {
+      "source_relative_path": ".agents/skills/building-openscience-cases/scripts/evidence.py",
+      "sha256": "4f0acc22b32435a42e7c1a1c1b7cd138c610187fb1421cf1a20d6611db8f7200"
     }
   ],
   "files": [
@@ -74,33 +106,73 @@
     },
     {
       "path": "02_Post_Run_Collection.md",
-      "bytes": 3081,
-      "sha256": "cbc48203fa923f5338e4ac9781dac77c8ef0cb28644538dd107a1433282ec0ac"
+      "bytes": 3554,
+      "sha256": "362acd87f954929b2f15f9c9cdb562ba5bc5b76be0783b18984e888e08b836a5"
     },
     {
       "path": "03_Human_Record_Sheet.md",
-      "bytes": 2635,
-      "sha256": "c5ef9c41b4b90cfb568e0a64dce3d3cad6fc97906a8e95c6659360c9c683b31f"
+      "bytes": 2980,
+      "sha256": "5e182e6de5bcf12204a1e1e9bb69f3ffd6882565d1bb373b43c81bfbe4b46bea"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 7007,
-      "sha256": "259880403cc9bbfd02033d6b1ffe776c98b3802b35ae7d85aef3bb31dda0569f"
+      "sha256": "a7c0e3c6a2cf5b762b98b9395dde5b63244f64e578c900c08e19b5e21bdddfd1"
+    },
+    {
+      "path": "collection-template/evidence-index.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "collection-template/HANDOFF.md",
+      "bytes": 752,
+      "sha256": "5f4d558b5bbc969b7e3109cce20d2e2a1ee07234516a065779ed591d59c5f534"
+    },
+    {
+      "path": "collection-template/interventions.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "collection-template/manifest.json",
+      "bytes": 526,
+      "sha256": "d668a59ada7fc0dd5c271baab60c49e6cfc6cda5ee5fc3c9c40323b997efc130"
+    },
+    {
+      "path": "collection-template/README.md",
+      "bytes": 1307,
+      "sha256": "595ac9552e15a7791b107ad21b1f93b9e1df70ddd1fe12d0be6e84488082fc8f"
+    },
+    {
+      "path": "collection-template/REPORT.md",
+      "bytes": 895,
+      "sha256": "8a3bf6c454a5c919ecc906cfbd3294134e604934df31bdd29fcafdd6c13d8e1a"
+    },
+    {
+      "path": "collection-tools/evidence.py",
+      "bytes": 17774,
+      "sha256": "4f0acc22b32435a42e7c1a1c1b7cd138c610187fb1421cf1a20d6611db8f7200"
     },
     {
       "path": "design-basis/checklist-alignment.md",
       "bytes": 8327,
-      "sha256": "763c95d9eda379101c7b89000e836da5503d349898b76e5002c28693b6c0c6e3"
+      "sha256": "b913ebbdb23ea94e3bd4c63b5e637f3a98671e10becd48a1876cc2c8c7756d92"
+    },
+    {
+      "path": "design-basis/collection-layout.md",
+      "bytes": 11569,
+      "sha256": "ab8394cdf096a5553638b9865a499cba590775fdf0158be77f379d19992e4cf0"
     },
     {
       "path": "design-basis/CONTEXT.md",
       "bytes": 3224,
-      "sha256": "1485a06617d9b31d533792d9b681023475395149115beb2ac164b22fb6c4de6d"
+      "sha256": "44fcf30f653d1d84e13c0c8d8da9b10a33901fab854396f20f285fd261c28640"
     },
     {
       "path": "design-basis/evidence-collection.md",
-      "bytes": 7188,
-      "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
+      "bytes": 7523,
+      "sha256": "b744e0eb24ef91b22bc4ec3017651579cebd47ec9f2d7ae7b4db466e0fec3ba4"
     },
     {
       "path": "design-basis/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
@@ -110,12 +182,12 @@
     {
       "path": "design-basis/operating-contract.md",
       "bytes": 11821,
-      "sha256": "3fb418346e5e78459ee042aa9848d081dfbdaf7e753e8229ed5b36171d3f0a4d"
+      "sha256": "27793a7c4bb99cd38b19f42efa2be233626a2edc8b2ec86253e1fb51c4381684"
     },
     {
       "path": "design-basis/operator-checklist.md",
-      "bytes": 6172,
-      "sha256": "a4177f86ff3aaffc656ae3672e739ee9a1d464558c810be22e45d0b93f022006"
+      "bytes": 6526,
+      "sha256": "bd9bcdce1b3edbf636531d5bb0a13b7082c62fc45fc4488e217ca15f8038fb64"
     },
     {
       "path": "design-basis/source-manifest.json",
@@ -134,8 +206,8 @@
     },
     {
       "path": "START_Run_Case_with_Codex.md",
-      "bytes": 4611,
-      "sha256": "d62705ebfdf5db4cf665fee47af2b62388a28cf79efc1b5f38d7e59f4c8d191d"
+      "bytes": 5122,
+      "sha256": "0efa9d9e554aefd67ad73ef01485ae0a489a4b8b6d42dbed87df47a2438519ba"
     }
   ]
 }

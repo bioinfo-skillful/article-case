@@ -1,6 +1,6 @@
 # Start: {{case_title}}
 
-Framework **2.0.0** · protocol **{{protocol_id}}** · status **prepared; not live-validated**.
+Framework **{{framework_version}}** · protocol **{{protocol_id}}** · status **prepared; not live-validated**.
 
 The research direction is {{direction}}. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 
@@ -28,3 +28,7 @@ When authorized, select a useful artifact and freeze its native Reproduction tar
 {{followup_examples}}
 
 These are examples, not a mandatory sequence or hidden output requirements. Choose based on actual findings and a recorded decision. Preserve all failed attempts; on finalization/revision conflict use only the allocated new-session allowance. Preparation alone does not start a run or prove any product capability.
+
+## Initialize collection before submission
+
+Read the [collection contract](design-basis/collection-layout.md). Use [blank collection templates](collection-template/README.md) and the [portable tool](collection-tools/evidence.py) to create a fresh evidence root outside this preparation and scientific workspace. Account for minimum categories, store screenshots beside their event, and preserve versions. Validate in progress and before final handoff; report evidence gaps separately from scientific outcomes.

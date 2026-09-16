@@ -1,6 +1,6 @@
 # Terms for conversation cases
 
-Framework 2.0.0. Behavior is defined in the [operating contract](operating-contract.md).
+Framework 2.1.0. Behavior is defined in the [operating contract](operating-contract.md).
 
 | Term | Meaning and boundary |
 |---|---|

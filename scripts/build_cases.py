@@ -21,6 +21,8 @@ def build(root=ROOT, check=False):
     skill = root / '.agents/skills/building-openscience-cases'
     templates = sorted((skill / 'assets/case-template').glob('*.md'))
     refs = sorted(p for p in (skill / 'references').iterdir() if p.is_file())
+    collection = sorted(p for p in (skill / 'assets/evidence-template').rglob('*') if p.is_file())
+    collector = skill / 'scripts/evidence.py'
     if len(templates) != 5:
         raise ValueError('Expected the five preparation templates')
     changes = []
@@ -28,6 +30,7 @@ def build(root=ROOT, check=False):
         case = root / 'cases' / case_id
         spec_path = case / 'case-spec.json'
         spec = json.loads(spec_path.read_text(encoding='utf-8'))
+        spec['framework_version'] = config['version']
         outputs = {}
         # Case-local source records travel with the generated preparation and
         # are covered by its integrity manifest, without embedding run evidence.
@@ -44,12 +47,15 @@ def build(root=ROOT, check=False):
             outputs[Path(template.name)] = re.sub(r'\{\{([a-z_]+)\}\}', replacement, text).encode('utf-8')
         for ref in refs:
             outputs[Path('design-basis') / ref.name] = ref.read_bytes()
+        for resource in collection:
+            outputs[Path('collection-template') / resource.relative_to(skill / 'assets/evidence-template')] = resource.read_bytes()
+        outputs[Path('collection-tools/evidence.py')] = collector.read_bytes()
         manifest = {
             'case_id': case_id, 'protocol_id': spec['protocol_id'],
             'framework_version': config['version'], 'status': 'prepared_not_live_validated',
             'prepared_date': config['release_date'],
             'inputs': [{'source_relative_path': p.relative_to(root).as_posix(),
-                        'sha256': digest(p.read_bytes())} for p in [spec_path, *templates, *refs, *resources]],
+                        'sha256': digest(p.read_bytes())} for p in [spec_path, *templates, *refs, *resources, *collection, collector]],
             'files': [{'path': path.as_posix(), 'bytes': len(data), 'sha256': digest(data)}
                       for path, data in sorted(outputs.items())],
         }

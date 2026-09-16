@@ -1,6 +1,6 @@
 # Operator record: Smoking and depressive symptoms in NHANES
 
-Protocol **nhanes-smoking-phq9-conversation-v2.0.1** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
+Protocol **nhanes-smoking-phq9-conversation-v2.1.0** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
 
 ## Allocate before starting
 
@@ -31,3 +31,5 @@ Record case/protocol/attempt/stage, project/session/run IDs, native task/message
 - [ ] CP7: all attempts, interventions, missing evidence, reporting categories and acceptance/display decisions accounted for.
 
 Maintain a handoff with current states, pending questions/decisions, recent saved screenshots and hashes, remaining budget/allowances, omissions and the next authorized action. Refresh native state after resuming; an old handoff does not establish current execution status.
+
+Use the [collection templates](collection-template/README.md) for the actual external attempt; this preparation sheet is not evidence of performed actions. Freeze assessment rules in 04-scientific-assessment before estimates and keep the minimum collection accounting current under the [collection contract](design-basis/collection-layout.md).

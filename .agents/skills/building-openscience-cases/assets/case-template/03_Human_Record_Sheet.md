@@ -31,3 +31,5 @@ Record case/protocol/attempt/stage, project/session/run IDs, native task/message
 - [ ] CP7: all attempts, interventions, missing evidence, reporting categories and acceptance/display decisions accounted for.
 
 Maintain a handoff with current states, pending questions/decisions, recent saved screenshots and hashes, remaining budget/allowances, omissions and the next authorized action. Refresh native state after resuming; an old handoff does not establish current execution status.
+
+Use the [collection templates](collection-template/README.md) for the actual external attempt; this preparation sheet is not evidence of performed actions. Freeze assessment rules in 04-scientific-assessment before estimates and keep the minimum collection accounting current under the [collection contract](design-basis/collection-layout.md).

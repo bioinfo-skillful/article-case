@@ -1,6 +1,6 @@
 {
   "case_title": "Case2: longitudinal inflammatory proteomics in COVID-19",
-  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.0.0",
+  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.1.0",
   "direction": "inflammatory-protein changes during COVID-19 in people receiving haemodialysis, including how sampling time affects interpretation",
   "opening_message": "I’d like to investigate how inflammatory protein levels change over the course of COVID-19 in people receiving haemodialysis, using these longitudinal plasma proteomics data. I’m particularly interested in whether the patterns depend on when samples were collected. Could you explore what the data support and help me plan a useful first analysis for discussion with research colleagues?",
   "initial_inputs": "the two unmodified public plasma CSVs, acquired and hash-verified using [source instructions](sources/README.md) before submission. They are not bundled in this preparation. Attach only these scientific inputs and legitimate source documentation; never attach this external evaluation package. Keep conversation and deliverables in English through launch context without editing the approved opening",

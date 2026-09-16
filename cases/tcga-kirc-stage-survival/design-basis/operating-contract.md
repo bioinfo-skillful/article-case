@@ -1,6 +1,6 @@
 # Research conversation operating contract
 
-Framework **2.0.0** · effective 2026-09-16 · prospective preparation and operation.
+Framework **2.1.0** · effective 2026-09-16 · prospective preparation and operation.
 
 This is the shared behavioral authority for both skills. Terms are in [CONTEXT](CONTEXT.md), collection rules in [evidence-collection](evidence-collection.md), and the working checklist in [operator-checklist](operator-checklist.md). The [checklist adaptation](checklist-alignment.md) explains changes from the preserved v0.2 original; historical protocols remain historical.
 

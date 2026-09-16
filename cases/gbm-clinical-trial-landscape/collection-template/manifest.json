@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "framework_version": "2.1.0",
+  "case_id": null,
+  "protocol_id": null,
+  "attempt_id": null,
+  "updated_at": null,
+  "collection_origin": "unfilled; choose contemporaneous or retrospective and explain in README",
+  "stages": [],
+  "handoff": {
+    "status": "in_progress",
+    "execution": "unknown",
+    "review": "unknown",
+    "correction": "unknown",
+    "checked_at": null,
+    "pending_decisions": [],
+    "remaining_budget": "",
+    "summary": "",
+    "next_action": ""
+  },
+  "files": []
+}

@@ -2,7 +2,7 @@
 name: building-openscience-cases
 description: Prepare OpenScience research cases that begin with a scientific question and develop through native planning, execution and review. Use to create or revise case preparation, not to launch a scientific run.
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
 ---
 
 # Build a research conversation
@@ -18,6 +18,8 @@ Identify the research question, motivation, indispensable context, actual attach
 Keep genuine user constraints. Leave population definitions, measurements, methods, software language and output forms open when the user has not fixed them. A detailed specification is still valid when explicitly requested; record that departure from conversation mode rather than discarding requirements.
 
 ## Prepare the package
+
+Read the [collection contract](references/collection-layout.md) when creating or revising preparation. Include the blank [collection templates](assets/evidence-template/README.md) and portable [evidence tool](scripts/evidence.py) in every case. They define minimum collection accounting, phase-local screenshots, versions and explicit gaps. Preparation carries blank templates only; actual evidence is initialized externally at launch.
 
 Use the five [templates](assets/case-template/START_Run_Case_with_Codex.md). Create START and 01–04 plus `design-basis/` and `preparation-manifest.json`.
 

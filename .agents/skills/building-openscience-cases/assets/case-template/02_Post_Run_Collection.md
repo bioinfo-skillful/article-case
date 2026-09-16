@@ -22,3 +22,7 @@ Use retained evidence and the [collection matrix](design-basis/evidence-collecti
 | Reproduction consistency | Actual native outcome, declared process, comparison levels, help and unobserved limits; no implication of correctness |
 
 Do not combine these into one score. A confirmed scientific error is retained even if review or replay passes. Present the concrete assessment to the allocated acceptance owner. Publish or export run evidence only under separate authorization; this repository contains preparation materials.
+
+## Required collection handoff
+
+Follow the [collection contract](design-basis/collection-layout.md). Update the external README, REPORT, HANDOFF, evidence/intervention indices and manifest. Account for every required category in every stage, including explicit absence reasons. Run the [evidence tool](collection-tools/evidence.py) in final-handoff mode after recording terminal states. Preserve validator errors and gaps; an archive with gaps is not complete collection.

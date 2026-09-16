@@ -1,6 +1,6 @@
 {
   "case_title": "Case3: pathological stage and survival in clear-cell renal cancer",
-  "protocol_id": "tcga-kirc-stage-survival-conversation-v2.0.0",
+  "protocol_id": "tcga-kirc-stage-survival-conversation-v2.1.0",
   "direction": "a retrospective study of pathological stage and overall survival using TCGA PanCancer Atlas clear-cell renal cancer clinical data",
   "opening_message": "I’d like to conduct a retrospective study of how pathological stage relates to overall survival in clear-cell renal cancer using the TCGA PanCancer Atlas clinical data. My aim is to understand what this cohort can tell us and what limitations matter for interpreting the relationship. Could you assess the available data and propose a useful first analysis?",
   "initial_inputs": "prompt plus the public study/source locator described in [source instructions](sources/README.md); no clinical file or prior numerical answers are pre-attached. The agent acquires clinical data through authorized access. Record any alternative source version as a prospective decision. Keep conversation and deliverables in English through launch context without editing the approved opening",

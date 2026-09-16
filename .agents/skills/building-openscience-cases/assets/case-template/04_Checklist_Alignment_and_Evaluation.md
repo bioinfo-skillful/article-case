@@ -1,6 +1,6 @@
 # Scientific and feature assessment: {{case_title}}
 
-Framework **2.0.0** · protocol **{{protocol_id}}** · **prepared; no live validation claimed**.
+Framework **{{framework_version}}** · protocol **{{protocol_id}}** · **prepared; no live validation claimed**.
 
 External operator material. The scientific opening is [01](01_OpenScience_Prompt.md). The [contract](design-basis/operating-contract.md) governs operation; the [adaptation map](design-basis/checklist-alignment.md) accounts for CP0–CP7 and every original section 8.2 result category. The original checklist stays unchanged.
 
