@@ -1,4 +1,4 @@
-# Adapting checklist v0.2 to framework 2.1.0
+# Adapting checklist v0.2 to framework 2.2.0
 
 The [English checklist edition](OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md) is the active reference. Its [manifest](source-manifest.json) identifies the English edition and the unchanged original retained only in the repository archive. It is an archived methodological source, including a particular simulated-marker example; its dates, scientific values and completed-tense reporting template are not defaults or evidence of this framework's success.
 

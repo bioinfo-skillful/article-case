@@ -1,6 +1,6 @@
 # OpenScience research conversations
 
-**Framework 2.1.0** prepares realistic research conversations and an external evidence/assessment workflow. Begin with a scientific question; develop a useful first investigation through native Plan first, execution and runtime auto-review; decide on extensions from the findings.
+**Framework 2.2.0** prepares realistic research conversations and an external evidence/assessment workflow. Begin with a scientific question; develop a useful first investigation through native Plan first, execution and runtime auto-review; decide on extensions from the findings.
 
 Status: **preparation release; no new live scientific validation claimed**. This repository contains skills, templates, prepared cases and historical preparation only. It contains no scientific run results or application patches.
 
@@ -36,6 +36,6 @@ To regenerate after an intentional spec/template/reference edit, run `python scr
 
 Historical release tags: `archive-pre-conversation-20260916` for the preparation baseline; `framework-v2.0.0` for the original conversation release. Report research usefulness, scientific validity, observed product features and Reproduction consistency separately. Consult [CHANGELOG](CHANGELOG.md) for the transition.
 
-## Framework 2.1.0 update
+## Framework 2.2.0 update
 
-The [collection upgrade](docs/collection-2.1.0.md) adds explicit evidence folders, blank records and a portable validator to all four cases. It is published as preparation materials on main; earlier release tags remain historical identities. Actual run evidence and delivery ZIPs remain outside this repository.
+The [collection upgrade](docs/collection-migration-2.2.0.md) adds explicit evidence folders, blank records and a portable validator to all four cases. Version 2.2.0 is identified by the framework-v2.2.0 tag; earlier release tags remain historical identities. Actual run evidence and delivery ZIPs remain outside this repository.

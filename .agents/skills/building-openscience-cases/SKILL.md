@@ -2,7 +2,7 @@
 name: building-openscience-cases
 description: Prepare OpenScience research cases that begin with a scientific question and develop through native planning, execution and review. Use to create or revise case preparation, not to launch a scientific run.
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
 ---
 
 # Build a research conversation
@@ -40,3 +40,7 @@ Check that 01 sounds like a researcher asking for help; its methods and conclusi
 Confirm that launch requires an explicit allocation of Plan approval, scope questions, extensions, recovery and acceptance; preparation itself does not choose that authority. Verify links, hashes, English active documentation, portable paths and the absence of inherited runtime/model defaults. Keep previous preparations and runs frozen when generating a replacement.
 
 Deliver the five documents, manifest and preparation status. For an authorized run, hand off to [openscience-human-review](../openscience-human-review/SKILL.md). Document validation is not evidence of live scientific success.
+
+## Collection choice
+
+Default to the CP0–CP7 `checkpoints` layout. Offer `stages` only as the supported legacy alternative. Follow the shared collection contract for initialization, retrospective mapping and handoff. Preserve historical evidence and explicitly account for blocked or unobserved checkpoints.

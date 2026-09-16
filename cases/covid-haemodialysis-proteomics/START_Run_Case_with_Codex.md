@@ -1,6 +1,6 @@
 # Start: Case2: longitudinal inflammatory proteomics in COVID-19
 
-Framework **2.1.0** · protocol **covid-haemodialysis-proteomics-conversation-v2.1.1** · status **prepared; not live-validated**.
+Framework **2.2.0** · protocol **covid-haemodialysis-proteomics-conversation-v2.1.1** · status **prepared; not live-validated**.
 
 The research direction is inflammatory-protein changes during COVID-19 in people receiving haemodialysis, including how sampling time affects interpretation. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 

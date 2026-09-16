@@ -18,7 +18,7 @@ class EvidenceTests(unittest.TestCase):
         self.base = Path(self.temp.name)
         self.root = self.base / 'evidence'
         ev.initialize(self.root, SKILL / 'assets/evidence-template', self.base / 'science',
-                      'fixture-case', 'fixture-protocol', 'fixture-attempt')
+                      'fixture-case', 'fixture-protocol', 'fixture-attempt', layout='stages')
 
     def tearDown(self):
         self.temp.cleanup()

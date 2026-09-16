@@ -2,7 +2,7 @@
 name: openscience-human-review
 description: Operate an authorized OpenScience research conversation through native Plan first, Notebook execution, runtime auto-review and Reproduction, retaining evidence and independently assessing science. Use for case supervision, not for writing the scientific analysis.
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
 ---
 
 # Operate and assess a research conversation
@@ -21,7 +21,7 @@ Keep independent references and evaluation documents outside the scientific work
 
 ## 2. Plan and make real decisions
 
-Save the prospective assessment contract in `04-scientific-assessment/` before inspecting results. Preserve each native Plan version, approval and question answer in `01-plan/`; record operator decisions in the intervention ledger.
+Save the prospective assessment contract in `CP1-plan/` before inspecting results. Preserve each native Plan version, approval and question answer in `CP1-plan/`; record operator decisions in the intervention ledger.
 
 Use the native **Plan first** action. A CLI/API is equivalent only when the installed version is verified to transmit native planning intent. Planning words alone do not prove this. Save the submitted message and intent, initial native Plan, version and pending approval state.
 
@@ -58,3 +58,7 @@ Maintain an external handoff after significant changes: case/protocol/attempt/st
 Stop only on completion within the authorized scope, the user's stop, an allocated decision requiring input, an exhausted budget or a demonstrated blocker after permitted recovery. State what still runs. Never imply monitoring continues after ending a turn without an actual configured mechanism.
 
 Report research usefulness, scientific validity, product-feature evidence and Reproduction consistency separately. Record all attempts and interventions. A documentation-only request ends after validating the documents and makes no live case claim.
+
+## Collection choice
+
+Default to the CP0–CP7 `checkpoints` layout. Offer `stages` only as the supported legacy alternative. Follow the shared collection contract for initialization, retrospective mapping and handoff. Preserve historical evidence and explicitly account for blocked or unobserved checkpoints.

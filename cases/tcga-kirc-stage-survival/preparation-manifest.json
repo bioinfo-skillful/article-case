@@ -1,7 +1,7 @@
 {
   "case_id": "tcga-kirc-stage-survival",
   "protocol_id": "tcga-kirc-stage-survival-conversation-v2.1.0",
-  "framework_version": "2.1.0",
+  "framework_version": "2.2.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
@@ -19,7 +19,7 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/03_Human_Record_Sheet.md",
-      "sha256": "525805c6f7b84189df58744915cc0a79fc38fd691db1eb22b851f16136ffa9cc"
+      "sha256": "b4af100ad109fcea9a7155e08d2638f8a8ef9c3164466eaa3311276b9658b4e1"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/04_Checklist_Alignment_and_Evaluation.md",
@@ -31,19 +31,19 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/checklist-alignment.md",
-      "sha256": "b913ebbdb23ea94e3bd4c63b5e637f3a98671e10becd48a1876cc2c8c7756d92"
+      "sha256": "c26983eb3be4706d88072660cec1ebd2941e510b605819c28893d1ffdd90d8ae"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/collection-layout.md",
-      "sha256": "ab8394cdf096a5553638b9865a499cba590775fdf0158be77f379d19992e4cf0"
+      "sha256": "764d0a2f003ca906941b04c96a2ef8a78060c1acf512852c249525313e62802e"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/CONTEXT.md",
-      "sha256": "44fcf30f653d1d84e13c0c8d8da9b10a33901fab854396f20f285fd261c28640"
+      "sha256": "24491d2748bbaaf1bb2e70f93ec816d9da21f3127e8055a2493f0e1e8a026b25"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/evidence-collection.md",
-      "sha256": "b744e0eb24ef91b22bc4ec3017651579cebd47ec9f2d7ae7b4db466e0fec3ba4"
+      "sha256": "79c35cf51846e1cf0f3ec74e80983af195a64acd876015a1d2271c1eb9186f17"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
@@ -51,7 +51,7 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/operating-contract.md",
-      "sha256": "27793a7c4bb99cd38b19f42efa2be233626a2edc8b2ec86253e1fb51c4381684"
+      "sha256": "1a11fb4fb38be321904a5341abdcb0c54abd8010445f8c185a3c7e87dc21f882"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/operator-checklist.md",
@@ -83,11 +83,11 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/manifest.json",
-      "sha256": "d668a59ada7fc0dd5c271baab60c49e6cfc6cda5ee5fc3c9c40323b997efc130"
+      "sha256": "1edfd956cc8a2eb0a479671883d5f8f4024514506d11cd8df783ec34acc2ab72"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/README.md",
-      "sha256": "595ac9552e15a7791b107ad21b1f93b9e1df70ddd1fe12d0be6e84488082fc8f"
+      "sha256": "15b775ac7fbb1991b513d57cea5ff2dcd066587b3d8da18ad5f273e2fa625c78"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/REPORT.md",
@@ -95,7 +95,7 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/scripts/evidence.py",
-      "sha256": "4f0acc22b32435a42e7c1a1c1b7cd138c610187fb1421cf1a20d6611db8f7200"
+      "sha256": "6553fb24fab00219f797deefc93cc482aa932e4687aea6f5decaf44b78592c87"
     }
   ],
   "files": [
@@ -111,13 +111,13 @@
     },
     {
       "path": "03_Human_Record_Sheet.md",
-      "bytes": 2984,
-      "sha256": "625574a17c28e8fe4136903d3659e26bb9bb6226a6b15a1e70670621bf32d9a2"
+      "bytes": 2968,
+      "sha256": "af4c0432c6fbbcc016822660e2410f91bb8f2bdd22285360c7db234162da64c8"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 7064,
-      "sha256": "89017b1484b10580d136cc3466d514db6372ea721ab36e9d5009bdaf9a68d6f7"
+      "sha256": "305dea1f7c5658944b425c04c7230c23d161c23461223cf5df388efc5fa18bb5"
     },
     {
       "path": "collection-template/evidence-index.jsonl",
@@ -137,12 +137,12 @@
     {
       "path": "collection-template/manifest.json",
       "bytes": 526,
-      "sha256": "d668a59ada7fc0dd5c271baab60c49e6cfc6cda5ee5fc3c9c40323b997efc130"
+      "sha256": "1edfd956cc8a2eb0a479671883d5f8f4024514506d11cd8df783ec34acc2ab72"
     },
     {
       "path": "collection-template/README.md",
-      "bytes": 1307,
-      "sha256": "595ac9552e15a7791b107ad21b1f93b9e1df70ddd1fe12d0be6e84488082fc8f"
+      "bytes": 1607,
+      "sha256": "15b775ac7fbb1991b513d57cea5ff2dcd066587b3d8da18ad5f273e2fa625c78"
     },
     {
       "path": "collection-template/REPORT.md",
@@ -151,28 +151,28 @@
     },
     {
       "path": "collection-tools/evidence.py",
-      "bytes": 17774,
-      "sha256": "4f0acc22b32435a42e7c1a1c1b7cd138c610187fb1421cf1a20d6611db8f7200"
+      "bytes": 18491,
+      "sha256": "6553fb24fab00219f797deefc93cc482aa932e4687aea6f5decaf44b78592c87"
     },
     {
       "path": "design-basis/checklist-alignment.md",
       "bytes": 8327,
-      "sha256": "b913ebbdb23ea94e3bd4c63b5e637f3a98671e10becd48a1876cc2c8c7756d92"
+      "sha256": "c26983eb3be4706d88072660cec1ebd2941e510b605819c28893d1ffdd90d8ae"
     },
     {
       "path": "design-basis/collection-layout.md",
-      "bytes": 11569,
-      "sha256": "ab8394cdf096a5553638b9865a499cba590775fdf0158be77f379d19992e4cf0"
+      "bytes": 13390,
+      "sha256": "764d0a2f003ca906941b04c96a2ef8a78060c1acf512852c249525313e62802e"
     },
     {
       "path": "design-basis/CONTEXT.md",
       "bytes": 3224,
-      "sha256": "44fcf30f653d1d84e13c0c8d8da9b10a33901fab854396f20f285fd261c28640"
+      "sha256": "24491d2748bbaaf1bb2e70f93ec816d9da21f3127e8055a2493f0e1e8a026b25"
     },
     {
       "path": "design-basis/evidence-collection.md",
       "bytes": 7523,
-      "sha256": "b744e0eb24ef91b22bc4ec3017651579cebd47ec9f2d7ae7b4db466e0fec3ba4"
+      "sha256": "79c35cf51846e1cf0f3ec74e80983af195a64acd876015a1d2271c1eb9186f17"
     },
     {
       "path": "design-basis/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
@@ -182,7 +182,7 @@
     {
       "path": "design-basis/operating-contract.md",
       "bytes": 11821,
-      "sha256": "27793a7c4bb99cd38b19f42efa2be233626a2edc8b2ec86253e1fb51c4381684"
+      "sha256": "1a11fb4fb38be321904a5341abdcb0c54abd8010445f8c185a3c7e87dc21f882"
     },
     {
       "path": "design-basis/operator-checklist.md",
@@ -207,7 +207,7 @@
     {
       "path": "START_Run_Case_with_Codex.md",
       "bytes": 5114,
-      "sha256": "8802d1b36d41c9b5ec6367420b206ee58a6aa714b46054111133df79285e3649"
+      "sha256": "b09be58b07fffd2ea87817652253614cdf6e7f925127b55a9dc90cc9c848f909"
     }
   ]
 }

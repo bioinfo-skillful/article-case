@@ -1,6 +1,6 @@
 # Evidence collection matrix
 
-Framework 2.1.0. Use with the [contract](operating-contract.md) and [operator checklist](operator-checklist.md). This specifies external records, not promised native API field names or files.
+Framework 2.2.0. Use with the [contract](operating-contract.md) and [operator checklist](operator-checklist.md). This specifies external records, not promised native API field names or files.
 
 ## Locate, collect and verify
 

@@ -1,4 +1,4 @@
-# Framework 2.1.0: research direction to supported answer
+# Framework 2.2.0: research direction to supported answer
 
 The case begins with a question and enough context to be useful. OpenScience investigates feasibility, clarifies meaningful uncertainties and proposes a bounded first Plan. The operator assesses that proposal; the allocated decision owner approves an exact version. Execution and native auto-review then develop the answer. Once they settle, a real research decision determines whether to stop, extend or replay a selected artifact.
 
@@ -22,4 +22,4 @@ This release validates preparation and documentation. It does not claim new scie
 
 ## Explicit collection
 
-Every generated case includes the [2.1.0 collection contract](collection-2.1.0.md), blank external records and a portable validator. Follow the phase layout and minimum category accounting before launch through final handoff. The validator distinguishes byte/record integrity from missing evidence and does not rate scientific success.
+Every generated case includes the [2.2.0 collection choices](collection-migration-2.2.0.md), blank external records and a portable validator. Follow the phase layout and minimum category accounting before launch through final handoff. The validator distinguishes byte/record integrity from missing evidence and does not rate scientific success.

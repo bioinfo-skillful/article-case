@@ -1,6 +1,6 @@
 # Start: Case3: pathological stage and survival in clear-cell renal cancer
 
-Framework **2.1.0** · protocol **tcga-kirc-stage-survival-conversation-v2.1.0** · status **prepared; not live-validated**.
+Framework **2.2.0** · protocol **tcga-kirc-stage-survival-conversation-v2.1.0** · status **prepared; not live-validated**.
 
 The research direction is a retrospective study of pathological stage and overall survival using TCGA PanCancer Atlas clear-cell renal cancer clinical data. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 

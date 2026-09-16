@@ -1,3 +1,10 @@
+# 2.2.0 — Default checkpoint collection
+
+- Add CP0–CP7 as the default collection layout; retain legacy stages and manifest compatibility.
+- Separate prospective criteria, final assessment, replay preview and actual replay evidence.
+- Document retrospective, byte-preserving reorganization and checkpoint coverage limitations.
+- Scientific openings and historical protocols are unchanged.
+
 # Changelog
 
 ## Case2 protocol 2.1.1 — 2026-09-16

@@ -7,8 +7,13 @@ import json
 import re
 import shutil
 
-FOLDERS = ('00-setup', '01-plan', '02-execution', '03-review',
+STAGE_FOLDERS = ('00-setup', '01-plan', '02-execution', '03-review',
            '04-scientific-assessment', '05-reproduction', 'deliverables', 'logs')
+CHECKPOINT_FOLDERS = ('CP0-setup', 'CP1-plan', 'CP2-execution', 'CP3-review',
+    'CP4-assessment', 'CP5-reproduction-preview', 'CP6-reproduction-execution',
+    'CP7-archive', 'deliverables', 'logs')
+LAYOUTS = {'checkpoints': CHECKPOINT_FOLDERS, 'stages': STAGE_FOLDERS}
+FOLDERS = CHECKPOINT_FOLDERS
 ROOT_FILES = ('README.md', 'REPORT.md', 'HANDOFF.md', 'evidence-index.jsonl',
               'manifest.json', 'interventions.jsonl')
 REQUIREMENTS = (
@@ -79,7 +84,10 @@ def seal(root):
     write_json(path, obj)
 
 
-def initialize(root, template, scientific_root, case_id, protocol_id, attempt_id):
+def initialize(root, template, scientific_root, case_id, protocol_id, attempt_id,
+               layout='checkpoints'):
+    if layout not in LAYOUTS:
+        raise ValueError('Unknown collection layout')
     root, template, scientific_root = root.resolve(), template.resolve(), scientific_root.resolve()
     if root.exists():
         raise ValueError('Use a new evidence directory; existing evidence is never overwritten')
@@ -91,10 +99,11 @@ def initialize(root, template, scientific_root, case_id, protocol_id, attempt_id
         if not (template / filename).is_file():
             raise ValueError(f'Missing template: {filename}')
     shutil.copytree(template, root)
-    for folder in FOLDERS:
+    for folder in LAYOUTS[layout]:
         (root / folder).mkdir(exist_ok=True)
     obj = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))
-    obj.update(case_id=case_id, protocol_id=protocol_id, attempt_id=attempt_id)
+    obj.update(case_id=case_id, protocol_id=protocol_id, attempt_id=attempt_id,
+               collection_layout=layout)
     obj['stages'] = [dict(stage_id='stage-1', requirements=[
         dict(id=name, status='pending', evidence_ids=[], reason='') for name in REQUIREMENTS])]
     write_json(root / 'manifest.json', obj)
@@ -115,13 +124,16 @@ def validate(root, mode='in-progress'):
     for name in ROOT_FILES:
         if not (root / name).is_file():
             error(f'Missing required file: {name}')
-    for name in FOLDERS:
-        if not (root / name).is_dir():
-            error(f'Missing required directory: {name}')
     manifest = load(root / 'manifest.json')
     if not isinstance(manifest, dict):
         return dict(valid=False, collection_complete=False, handoff_ready=False,
                     validation_errors=errors or ['Manifest must be an object'], collection_gaps=gaps)
+    layout = manifest.get('collection_layout', 'stages')
+    if layout not in LAYOUTS:
+        error('Unknown collection_layout')
+    for name in LAYOUTS.get(layout, ()):
+        if not (root / name).is_dir():
+            error(f'Missing required directory: {name}')
     if manifest.get('schema_version') != 1:
         error('Unsupported manifest schema_version')
     for key in ('case_id', 'protocol_id', 'attempt_id'):
@@ -333,6 +345,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     init = sub.add_parser('init')
+    init.add_argument('--layout', choices=tuple(LAYOUTS), default='checkpoints')
     for name in ('root', 'template', 'scientific-root', 'case-id', 'protocol-id', 'attempt-id'):
         init.add_argument('--' + name, required=True)
     refresh = sub.add_parser('inventory')
@@ -345,7 +358,7 @@ def main():
         root = Path(args.root).resolve()
         if args.command == 'init':
             initialize(root, Path(args.template), Path(args.scientific_root),
-                       args.case_id, args.protocol_id, args.attempt_id)
+                       args.case_id, args.protocol_id, args.attempt_id, args.layout)
         elif args.command == 'inventory':
             seal(root)
         else:
