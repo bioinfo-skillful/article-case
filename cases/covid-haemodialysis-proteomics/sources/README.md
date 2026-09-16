@@ -1,9 +1,17 @@
-# Case2 scientific input preparation
+# Case2 agent-led source acquisition
 
-These are source instructions for the operator, not an analysis recipe. The approved opening refers to actual longitudinal plasma data. Before a future launch, download the two CSVs listed in [source-manifest.json](source-manifest.json) to a fresh scientific-input location, verify their byte lengths and SHA-256 values, and attach them through native OpenScience controls. Keep their original names and bytes. Do not submit the opening as though data were attached if acquisition failed.
+Start with an empty scientific workspace. Submit [the conversational opening](../01_OpenScience_Prompt.md), which supplies the public repository link and the two filenames. Do not download, attach or prepopulate data on the agent's behalf. Let OpenScience retrieve the files, read the author documentation, assess the actual cohort and propose an investigation through native Plan first. The data are not claimed to be attached.
 
-The files come from the public plasma subcohort in Gisby and colleagues' longitudinal Olink study. Use the pinned author README for column meanings and attribution (CC BY 4.0). It describes NPX as normalized log2 expression and identifies participant, sample and assay fields. The public age field is binned; do not assume exact ages are available. Source documentation is legitimate scientific context, not a prescribed solution. Neither the author's analysis script nor historical case outputs are initial attachments.
+Add only this launch context: "Please use English for our discussion and deliverables." Do not submit START, 02–04, design-basis, the external source manifest, private assessments or the preparation ZIP as scientific inputs. No analysis script or historical result is an initial attachment.
 
-The preparation package contains source identities rather than the CSV bytes. Acquisition was checked during preparation, but future access must be verified again. Record actual acquisition time, URL, hash, attachment identifiers and source documentation in the future run's external evidence. An unavailable source is a launch condition to resolve, not permission to synthesize replacement observations.
+## Verify acquisition externally
 
-Optional scientific context to accompany the unchanged opening: "The attached plasma files are from the public longitudinal Olink dataset by Gisby and colleagues. Please use English for our discussion and deliverables." Supply the documented source URL as context. Do not attach START, 02-04, design-basis, private assessments or the whole preparation ZIP.
+The [source manifest](source-manifest.json) retains the previously verified commit, byte counts and SHA-256 values. After the agent downloads the data, retain its actual retrieval URL/time, source revision when available, file bytes/hashes, and native input/run/artifact identities. Compare against the pinned baseline externally. The opening points to mutable `main`: a hash difference is a version discrepancy to investigate, not automatic proof of corrupt data or incorrect science. Resolve a changed source version under the allocated scope authority and record it before analysis; do not silently replace the agent's files.
+
+The author documentation identifies a plasma subcohort of people receiving haemodialysis, NPX normalized log2 expression, binned age, and participant/sample/assay fields. Let the agent establish these facts from the source; assess that it does not generalize to all COVID-19 patients. Attribution and source terms remain applicable (the verified author README states CC BY 4.0).
+
+## Bounded fallback
+
+If repository discovery or retrieval fails, allow the agent's native recovery to settle. Within the agreed operator-recovery authority and allowance, supply the relevant commit-pinned raw download URL(s) from the manifest, including the pinned README if needed. The agent still downloads and verifies the files. Record the exact fallback prompt, reason, URLs and subsequent execution in the intervention ledger; label the run operator-assisted acquisition. Do not send numerical answers or a prescribed analysis recipe.
+
+If access remains unavailable, retain the blocker or request the out-of-scope decision. Do not synthesize observations or silently substitute operator-downloaded files. Preparation hashes establish source identity, not live acquisition success, scientific correctness or native Reproduction.

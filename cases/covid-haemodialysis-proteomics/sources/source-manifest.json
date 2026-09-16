@@ -8,14 +8,14 @@
       "url": "https://raw.githubusercontent.com/jackgisby/longitudinal_olink_proteomics/fc6c74d49240fa3058e97e231ad771775ceb63c4/data/plasma_npx_level.csv",
       "bytes": 7860609,
       "sha256": "dee433fbc3b5ef3c74e8f7002427baa8f330e74de5fa7b0d29b0a4f13ef86003",
-      "role": "scientific attachment"
+      "role": "agent-acquired scientific input; pinned fallback and external identity baseline"
     },
     {
       "file": "plasma_sample_level.csv",
       "url": "https://raw.githubusercontent.com/jackgisby/longitudinal_olink_proteomics/fc6c74d49240fa3058e97e231ad771775ceb63c4/data/plasma_sample_level.csv",
       "bytes": 40743,
       "sha256": "311e33438af092bc9cfc9327803ad5a9edfbd3468e81acc5d76f86c6d516d73b",
-      "role": "scientific attachment"
+      "role": "agent-acquired scientific input; pinned fallback and external identity baseline"
     },
     {
       "file": "README.md",
@@ -29,5 +29,8 @@
   "verified_date": "2026-09-16",
   "verification": "Fresh HTTPS retrieval, SHA-256 and byte count; header/documentation inspection only. No scientific estimates computed.",
   "raw_data_bundled": false,
-  "live_validation": false
+  "live_validation": false,
+  "acquisition_mode": "agent_downloads_from_repository",
+  "default_source_url": "https://github.com/jackgisby/longitudinal_olink_proteomics/tree/main/data",
+  "pinned_urls_usage": "External verification baseline and operator-supplied fallback only when needed; record the intervention. No initial data attachments."
 }

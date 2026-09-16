@@ -18,7 +18,7 @@ The previous Case2 preparation was identified inside a historical user-supplied 
 | Evaluation | Predetermined methods/output inventory | Scientific validity principles first; detailed checks frozen after Plan selection and before estimates |
 | Progress | Compulsory analysis sequence | Conditional questions after execution and relevant review settle |
 
-The approved openings are preserved verbatim in 01. Actual attachments and source locators are described separately in source instructions. Both packages require English communication and outputs through launch context. Source pinning establishes identifiable inputs, not a preferred answer. Reasonable alternative methods are valid when justified; this does not excuse unsupported scientific claims or failure to deliver approved commitments.
+The currently approved openings are preserved verbatim in 01. Case2 protocol 2.1.1 now supplies a repository link and two filenames and requires agent-led acquisition into an empty workspace; the earlier attachment-based preparation remains in Git history. Actual source locators and conditional fallbacks are described in source instructions. Both packages require English communication and outputs through launch context. Source pinning establishes identifiable inputs, not a preferred answer. Reasonable alternative methods are valid when justified; this does not excuse unsupported scientific claims or failure to deliver approved commitments.
 
 ## Feature observations
 

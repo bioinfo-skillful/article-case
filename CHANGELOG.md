@@ -1,5 +1,11 @@
 # Changelog
 
+## Case2 protocol 2.1.1 — 2026-09-16
+
+- Start from a research question, public repository link and two filenames; OpenScience acquires the data itself.
+- Require an empty scientific workspace and no operator-provided initial data. Keep pinned URLs/hashes for external verification and bounded, recorded fallback.
+- Regenerate Case2 documents and hashes; framework remains 2.1.0. Existing run evidence and immutable archive are unchanged. This new acquisition protocol is prepared, not live-validated.
+
 ## 2.1.0 — preparation update, 2026-09-16
 
 - Standardized external evidence layout, minimum accounting, blank templates and record formats.

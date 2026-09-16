@@ -1,13 +1,13 @@
 {
   "case_id": "covid-haemodialysis-proteomics",
-  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.1.0",
+  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.1.1",
   "framework_version": "2.1.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/case-spec.json",
-      "sha256": "e7cf1e0c1a3ab11412c5d5f7532d5393c13c8e744dee1293c89f9247c1b04af4"
+      "sha256": "69e22fc52f2d23a68b00703d8a3d3e53bd734cc831ddc6183facc4c0102d6c33"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -63,11 +63,11 @@
     },
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/README.md",
-      "sha256": "f7c4c02c9807791b98a6a7ba12934867efe87287e2d1b14e673b40b99911ca7b"
+      "sha256": "293372782b440574c4993c518bd264f02234bf8ecb9ead01ad6d9e0708749a34"
     },
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/source-manifest.json",
-      "sha256": "0368af278a83a541ef7d0b2df2d5eca1724e89eb708f35a9ab41c735c6e3901d"
+      "sha256": "6dbf9c6623e37b0ed4cf8d70195e033869c1cf668782ffb4f201e666417d52aa"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/evidence-template/evidence-index.jsonl",
@@ -101,23 +101,23 @@
   "files": [
     {
       "path": "01_OpenScience_Prompt.md",
-      "bytes": 392,
-      "sha256": "2ed5fddabae861f40801d15cf18db5eae80ddf4db4b8b4e68091dc5b997acdb6"
+      "bytes": 448,
+      "sha256": "3d2e06c448ba151b97519cd0fbd640d966dedace5e7a90830ff515d554727f22"
     },
     {
       "path": "02_Post_Run_Collection.md",
       "bytes": 3554,
-      "sha256": "362acd87f954929b2f15f9c9cdb562ba5bc5b76be0783b18984e888e08b836a5"
+      "sha256": "4a036482f973bcfeae951ae3195ffa2bf8c476793d65979b194081cb9fe0b6b8"
     },
     {
       "path": "03_Human_Record_Sheet.md",
       "bytes": 2980,
-      "sha256": "5e182e6de5bcf12204a1e1e9bb69f3ffd6882565d1bb373b43c81bfbe4b46bea"
+      "sha256": "0065ac8e5342cb1f9b295fb67f429547650297a8284a9da731228e120bd24d2f"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 7007,
-      "sha256": "a7c0e3c6a2cf5b762b98b9395dde5b63244f64e578c900c08e19b5e21bdddfd1"
+      "sha256": "6a78bcaf8f674926334c920dc83691c6f04d9896937f3d1a6e8e6947139df1df"
     },
     {
       "path": "collection-template/evidence-index.jsonl",
@@ -196,18 +196,18 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 1813,
-      "sha256": "f7c4c02c9807791b98a6a7ba12934867efe87287e2d1b14e673b40b99911ca7b"
+      "bytes": 2657,
+      "sha256": "293372782b440574c4993c518bd264f02234bf8ecb9ead01ad6d9e0708749a34"
     },
     {
       "path": "sources/source-manifest.json",
-      "bytes": 1527,
-      "sha256": "0368af278a83a541ef7d0b2df2d5eca1724e89eb708f35a9ab41c735c6e3901d"
+      "bytes": 1997,
+      "sha256": "6dbf9c6623e37b0ed4cf8d70195e033869c1cf668782ffb4f201e666417d52aa"
     },
     {
       "path": "START_Run_Case_with_Codex.md",
-      "bytes": 5122,
-      "sha256": "0efa9d9e554aefd67ad73ef01485ae0a489a4b8b6d42dbed87df47a2438519ba"
+      "bytes": 5349,
+      "sha256": "542420adf62fb6fe8f751c4491a7a83cd89042c13c065ec451c5de44fe3e595b"
     }
   ]
 }
