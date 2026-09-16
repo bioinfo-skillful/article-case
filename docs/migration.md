@@ -16,7 +16,7 @@ New openings and interaction conditions mean these are not directly comparable f
 
 ## Install and launch later
 
-Use this repository as a project or copy **both** active skill directories together into the target project's `.agents/skills/`. Their sibling relationship is required by the operator's shared-reference links. Keep the original checklist and source manifest with the builder skill. Use only the active copy; leave archived skills outside discovery/installation paths.
+Use this repository as a project or copy **both** active skill directories together into the target project's `.agents/skills/`. Their sibling relationship is required by the operator's shared-reference links. Keep the English checklist edition and source manifest with the builder skill. Use only the active copy; leave archived skills outside discovery/installation paths.
 
 Each generated case has five entry documents, a frozen `design-basis/` and a preparation manifest. A case folder is portable on its own. Read START externally; send only 01 and legitimate scientific attachments/context to OpenScience. Choose new scientific and evidence directories at launch rather than reusing old runs. The preparation repository and private checks are not the scientific agent's workspace.
 
@@ -28,4 +28,4 @@ Edit shared behavior in the active skills/references. Edit case-specific content
 
 The first commit/tag preserves the preparation archive. The release tag fixes the new framework and cases. Later framework/case changes require new versions and newly generated manifests; do not rewrite released archives or historical run records. Restore a prior skill release by explicitly selecting its Git tag and copying its skill pair into a separate chosen environment, not by resetting a live scientific session.
 
-New instructions and display metadata are English. Historical documents and the original checklist retain exact bytes and original language. Some old absolute paths, external references and manifest entries deliberately point to excluded historical records; they are not current dependencies. The active packages use portable local links and source-relative manifests.
+Active instructions, display metadata, checklists and case references are English. The English checklist is a separately hashed working edition, not the original bytes. Historical documents and the original checklist retain exact bytes and original language only in the archive. Source manifests retain the original filename/path as provenance identifiers. Some old absolute paths, external references and manifest entries deliberately point to excluded historical records; they are not current dependencies. The active packages use portable local links and source-relative manifests.

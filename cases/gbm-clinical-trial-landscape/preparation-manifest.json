@@ -31,7 +31,7 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/checklist-alignment.md",
-      "sha256": "4168a1127418ed1fbfec497d64c2805d9e352a750acce6c6a991a1c74292b454"
+      "sha256": "763c95d9eda379101c7b89000e836da5503d349898b76e5002c28693b6c0c6e3"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/CONTEXT.md",
@@ -42,8 +42,8 @@
       "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
     },
     {
-      "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
-      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+      "source_relative_path": ".agents/skills/building-openscience-cases/references/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
+      "sha256": "7871cfc92cf76b80f07dcec05a9a84c4ba2111eb8a4238fb0ba2ca01849eb304"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/operating-contract.md",
@@ -55,7 +55,7 @@
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/references/source-manifest.json",
-      "sha256": "d3ae6fc69a808e97570b20d4820854942a8447f54acb5c2baeaf5fc670781bde"
+      "sha256": "b3001c2b7b35c1c0d1ea496ed47c544503330926c811b36985956f212c61eed6"
     }
   ],
   "files": [
@@ -81,8 +81,8 @@
     },
     {
       "path": "design-basis/checklist-alignment.md",
-      "bytes": 8229,
-      "sha256": "4168a1127418ed1fbfec497d64c2805d9e352a750acce6c6a991a1c74292b454"
+      "bytes": 8327,
+      "sha256": "763c95d9eda379101c7b89000e836da5503d349898b76e5002c28693b6c0c6e3"
     },
     {
       "path": "design-basis/CONTEXT.md",
@@ -95,9 +95,9 @@
       "sha256": "81b3439f855301a0b17159451f61ea0f663badd72f566588febf72c840dccee4"
     },
     {
-      "path": "design-basis/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md",
-      "bytes": 44525,
-      "sha256": "98c350708db7214aea933da14ded18bbeea4b59ab1ec7028c035e7528560f034"
+      "path": "design-basis/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md",
+      "bytes": 41070,
+      "sha256": "7871cfc92cf76b80f07dcec05a9a84c4ba2111eb8a4238fb0ba2ca01849eb304"
     },
     {
       "path": "design-basis/operating-contract.md",
@@ -111,8 +111,8 @@
     },
     {
       "path": "design-basis/source-manifest.json",
-      "bytes": 599,
-      "sha256": "d3ae6fc69a808e97570b20d4820854942a8447f54acb5c2baeaf5fc670781bde"
+      "bytes": 1101,
+      "sha256": "b3001c2b7b35c1c0d1ea496ed47c544503330926c811b36985956f212c61eed6"
     },
     {
       "path": "START_Run_Case_with_Codex.md",

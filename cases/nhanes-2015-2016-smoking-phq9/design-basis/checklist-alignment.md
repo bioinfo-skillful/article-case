@@ -1,6 +1,6 @@
 # Adapting checklist v0.2 to framework 2.0.0
 
-The [original checklist](OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md) remains byte-identical with its [manifest](source-manifest.json). It is an archived methodological source, including a particular simulated-marker example; its dates, scientific values and completed-tense reporting template are not defaults or evidence of this framework's success.
+The [English checklist edition](OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md) is the active reference. Its [manifest](source-manifest.json) identifies the English edition and the unchanged original retained only in the repository archive. It is an archived methodological source, including a particular simulated-marker example; its dates, scientific values and completed-tense reporting template are not defaults or evidence of this framework's success.
 
 The [operating contract](operating-contract.md) is the prospective authority. User instructions prevail. This adaptation changes the timing of scientific commitments and the interaction style; it preserves independent checking and honest evidence boundaries.
 

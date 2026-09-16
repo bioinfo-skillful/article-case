@@ -61,6 +61,16 @@ class PreparationTests(unittest.TestCase):
         p.write_text('{{opening_message}}\n', encoding='utf-8')
         self.assertTrue(any('Unresolved active placeholder' in e for e in validate(self.root)['errors']))
 
+    def test_active_chinese_text_is_rejected(self):
+        p = self.root / 'docs/language-regression.md'
+        p.write_text('\u8fd0\u884c\u6e05\u5355\n', encoding='utf-8')
+        self.assertTrue(any('Non-English CJK' in e for e in validate(self.root)['errors']))
+
+    def test_english_checklist_tampering_is_rejected(self):
+        p = self.root / '.agents/skills/building-openscience-cases/references/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md'
+        p.write_bytes(p.read_bytes() + b'\nUntracked edit\n')
+        self.assertTrue(any('English checklist hash mismatch' in e for e in validate(self.root)['errors']))
+
     def test_potential_secret_is_reported_without_printing_value(self):
         fake = 'ghp_' + 'A' * 40
         (self.root / 'unintended.json').write_text(json.dumps({'token': fake}), encoding='utf-8')

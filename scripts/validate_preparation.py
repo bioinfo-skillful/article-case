@@ -47,7 +47,11 @@ def validate(root=ROOT):
     except (ValueError, KeyError, FileNotFoundError) as exc:
         errors.append(f'Case generation check: {exc}')
 
-    original_name = 'OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md'
+    source_manifest = json.loads((root / '.agents/skills/building-openscience-cases/references/source-manifest.json').read_text(encoding='utf-8'))
+    original = root / source_manifest['archive_source_relative_path']
+    if sha(original) != source_manifest['original_sha256'] or sha(original) != config['master_checklist_sha256']:
+        errors.append('Archived original checklist hash mismatch')
+    english_name = source_manifest['file']
     links = 0
     archive_historical = 0
     for p in files:
@@ -67,10 +71,10 @@ def validate(root=ROOT):
         if p.is_relative_to(archive):
             archive_historical += 1
             continue
-        if p.name == original_name:
-            if sha(p) != config['master_checklist_sha256']:
-                errors.append(f'Original checklist changed: {rel}')
-            continue
+        if re.search(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]', rel + text):
+            errors.append(f'Non-English CJK text or filename in active file: {rel}')
+        if p.name == english_name and sha(p) != source_manifest['sha256']:
+            errors.append(f'English checklist hash mismatch: {rel}')
         if re.search(r'(?<![A-Za-z])[A-Za-z]:[\\/]', text) or re.search(r'/(?:home|Users)/[A-Za-z0-9_-]+/', text):
             errors.append(f'Machine-specific path in active file: {rel}')
         template = 'assets/case-template' in rel

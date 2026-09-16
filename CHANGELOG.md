@@ -1,5 +1,12 @@
 # Changelog
 
+## English reference audit — 2026-09-16
+
+- Replaced all three active Chinese checklist copies with an English working edition retaining sections 1–10, CP0–CP7, assessment categories, numerical examples and bibliography.
+- Preserved original Chinese source bytes in the immutable archive; recorded separate original/English hashes and edition provenance.
+- Updated skill links, both case snapshots/manifests and migration instructions. Added active CJK text/filename and English-checklist integrity checks.
+- Corrected the earlier claim that all active materials were already English: the copied checklist references had been overlooked.
+
 ## Case protocol update 2.0.1 — 2026-09-16
 
 - Request English conversation and deliverables explicitly in both case openings.

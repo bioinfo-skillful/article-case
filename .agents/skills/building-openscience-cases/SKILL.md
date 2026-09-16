@@ -11,7 +11,7 @@ Prepare a realistic starting situation and an external operating package. The sc
 
 ## Establish the case
 
-Read the [operating contract](references/operating-contract.md) and [terms](references/CONTEXT.md). For evidence planning use the [collection matrix](references/evidence-collection.md). When creating a package, read the [preserved checklist](references/OpenScience_Case运行Checklist_指标与文献_v0.2_20260910.md), verify its [source manifest](references/source-manifest.json), and apply the [adaptation map](references/checklist-alignment.md).
+Read the [operating contract](references/operating-contract.md) and [terms](references/CONTEXT.md). For evidence planning use the [collection matrix](references/evidence-collection.md). When creating a package, read the [English checklist edition](references/OpenScience_Case_Checklist_Metrics_and_References_v0.2_EN.md), verify its [source manifest](references/source-manifest.json), and apply the [adaptation map](references/checklist-alignment.md).
 
 Identify the research question, motivation, indispensable context, actual attachments and allowed sources. Inspect an explicitly referenced scientific example before drawing on it; distinguish its displayed opening from a marketing summary. Treat examples and published results as references to assess, not target answers.
 
@@ -27,7 +27,7 @@ Use the five [templates](assets/case-template/START_Run_Case_with_Codex.md). Cre
 - **03:** the reusable operator checklist and blank decision/stage records. Preparation leaves run facts unfilled.
 - **04:** case-specific scientific obligations, conditional checks and a feature-to-evidence map. Detailed methods, output commitments, claim slots, comparison fields and tolerances are selected for the approved stage before inspecting its results.
 
-Copy the shared contract, terms, evidence matrix, operator checklist, checklist alignment and source manifest to `design-basis/`; copy the original checklist byte-for-byte. Generated packages must work away from the skill directory. Record framework version, case protocol identity, source-relative paths and hashes. Replace every template placeholder in generated case files; preserve placeholders only in reusable assets.
+Copy the shared contract, terms, evidence matrix, operator checklist, checklist alignment and source manifest to `design-basis/`; copy the English checklist edition byte-for-byte. Generated packages must work away from the skill directory. Record framework version, case protocol identity, source-relative paths and hashes. Replace every template placeholder in generated case files; preserve placeholders only in reusable assets.
 
 Offer follow-up questions as optional examples to choose after findings settle. Do not prewrite a compulsory conversation or quietly reintroduce an old report/file/model quota. Keep the same research topic distinct from the same experimental protocol: a changed opening or interaction rule creates a new protocol identity.
 
