@@ -63,7 +63,7 @@
     },
     {
       "source_relative_path": "cases/tcga-kirc-stage-survival/sources/source-manifest.json",
-      "sha256": "b67887ef05cba30eea7c0154087bd32128449f0646d2350340e96162ed2ea803"
+      "sha256": "c75a5034036443dcc747bcb30f58a3b62d4a4e55bf0ba24dc2390ad209162c4a"
     }
   ],
   "files": [
@@ -129,8 +129,8 @@
     },
     {
       "path": "sources/source-manifest.json",
-      "bytes": 1622,
-      "sha256": "b67887ef05cba30eea7c0154087bd32128449f0646d2350340e96162ed2ea803"
+      "bytes": 1588,
+      "sha256": "c75a5034036443dcc747bcb30f58a3b62d4a4e55bf0ba24dc2390ad209162c4a"
     },
     {
       "path": "START_Run_Case_with_Codex.md",

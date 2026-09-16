@@ -63,7 +63,7 @@
     },
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/source-manifest.json",
-      "sha256": "8be8bbc36c91b1c66c6368442565c7701b2fc6924c784a5c1e7361fcc229386a"
+      "sha256": "0368af278a83a541ef7d0b2df2d5eca1724e89eb708f35a9ab41c735c6e3901d"
     }
   ],
   "files": [
@@ -129,8 +129,8 @@
     },
     {
       "path": "sources/source-manifest.json",
-      "bytes": 1560,
-      "sha256": "8be8bbc36c91b1c66c6368442565c7701b2fc6924c784a5c1e7361fcc229386a"
+      "bytes": 1527,
+      "sha256": "0368af278a83a541ef7d0b2df2d5eca1724e89eb708f35a9ab41c735c6e3901d"
     },
     {
       "path": "START_Run_Case_with_Codex.md",
