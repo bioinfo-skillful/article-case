@@ -39,3 +39,7 @@ Historical release tags: `archive-pre-conversation-20260916` for the preparation
 ## Framework 2.2.0 update
 
 The [collection upgrade](docs/collection-migration-2.2.0.md) adds explicit evidence folders, blank records and a portable validator to all four cases. Version 2.2.0 is identified by the framework-v2.2.0 tag; earlier release tags remain historical identities. Actual run evidence and delivery ZIPs remain outside this repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
