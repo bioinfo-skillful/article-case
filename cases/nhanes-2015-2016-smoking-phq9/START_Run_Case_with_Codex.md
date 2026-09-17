@@ -1,6 +1,6 @@
 # Start: Smoking and depressive symptoms in NHANES
 
-Framework **2.2.0** · protocol **nhanes-smoking-phq9-conversation-v2.1.0** · status **prepared; not live-validated**.
+Framework **2.2.0** · protocol **nhanes-smoking-phq9-conversation-v2.1.1** · status **prepared; not live-validated**.
 
 The research direction is a retrospective analysis of existing NHANES 2015–2016 cross-sectional survey data on cigarette smoking and depressive symptoms, to inform a future study. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 

@@ -1,6 +1,6 @@
 # Operator record: Glioblastoma clinical-trial landscape
 
-Protocol **gbm-trial-landscape-conversation-v2.1.0** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
+Protocol **gbm-trial-landscape-conversation-v2.1.1** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
 
 ## Allocate before starting
 

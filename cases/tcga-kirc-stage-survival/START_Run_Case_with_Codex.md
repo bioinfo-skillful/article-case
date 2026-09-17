@@ -1,6 +1,6 @@
 # Start: Case3: pathological stage and survival in clear-cell renal cancer
 
-Framework **2.2.0** · protocol **tcga-kirc-stage-survival-conversation-v2.1.0** · status **prepared; not live-validated**.
+Framework **2.2.0** · protocol **tcga-kirc-stage-survival-conversation-v2.1.1** · status **prepared; not live-validated**.
 
 The research direction is a retrospective study of pathological stage and overall survival using TCGA PanCancer Atlas clear-cell renal cancer clinical data. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 
@@ -9,7 +9,7 @@ The research direction is a retrospective study of pathological stage and overal
 1. Read [04](04_Checklist_Alignment_and_Evaluation.md), the [contract](design-basis/operating-contract.md), [evidence matrix](design-basis/evidence-collection.md), [checklist](design-basis/operator-checklist.md) and [adaptation](design-basis/checklist-alignment.md). Check `preparation-manifest.json` and the preserved checklist hash.
 2. Ask the user to allocate Plan approval, scope questions, extensions, recovery/restarts and final acceptance to the user/operator/a specified split. Record limits and escalation conditions in [03](03_Human_Record_Sheet.md). Record Reproduction authority, total budget and restart/recovery/replay allowances. No owner or allowance is assumed from historical runs.
 3. Discover the installed version, current models/runtimes/routing, actual native interfaces and session settings. Preserve configured choices. Confirm auto-review and evidence capture readiness; maximize the app for screenshots.
-4. Choose fresh scientific and external-evidence locations; record actual access boundaries. Keep preparation/evaluation files and private references out of the scientific workspace. Initial attachments: prompt plus the public study/source locator described in [source instructions](sources/README.md); no clinical file or prior numerical answers are pre-attached. The agent acquires clinical data through authorized access. Record any alternative source version as a prospective decision. Keep conversation and deliverables in English through launch context without editing the approved opening. Do not invent input files.
+4. Choose fresh scientific and external-evidence locations; record actual access boundaries. Keep preparation/evaluation files and private references out of the scientific workspace. Initial attachments: prompt plus the public study/source locator described in [source instructions](sources/README.md); no clinical file or prior numerical answers are pre-attached. The agent acquires clinical data through authorized access. Record any alternative source version as a prospective decision. Do not invent input files.
 
 ## Progress through a real research conversation
 

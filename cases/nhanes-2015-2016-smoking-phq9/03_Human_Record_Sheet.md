@@ -1,6 +1,6 @@
 # Operator record: Smoking and depressive symptoms in NHANES
 
-Protocol **nhanes-smoking-phq9-conversation-v2.1.0** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
+Protocol **nhanes-smoking-phq9-conversation-v2.1.1** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
 
 ## Allocate before starting
 

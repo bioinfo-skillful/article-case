@@ -1,6 +1,6 @@
 # Start: Glioblastoma clinical-trial landscape
 
-Framework **2.2.0** · protocol **gbm-trial-landscape-conversation-v2.1.0** · status **prepared; not live-validated**.
+Framework **2.2.0** · protocol **gbm-trial-landscape-conversation-v2.1.1** · status **prepared; not live-validated**.
 
 The research direction is the current glioblastoma clinical-trial landscape and evidence-supported research gaps. Send only [01](01_OpenScience_Prompt.md) and any actual authorized scientific attachments/context to OpenScience. The remaining documents are external operating and evaluation materials.
 

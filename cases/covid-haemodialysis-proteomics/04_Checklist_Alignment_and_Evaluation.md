@@ -1,6 +1,6 @@
 # Scientific and feature assessment: Case2: longitudinal inflammatory proteomics in COVID-19
 
-Framework **2.2.0** · protocol **covid-haemodialysis-proteomics-conversation-v2.1.1** · **prepared; no live validation claimed**.
+Framework **2.2.0** · protocol **covid-haemodialysis-proteomics-conversation-v2.1.2** · **prepared; no live validation claimed**.
 
 External operator material. The scientific opening is [01](01_OpenScience_Prompt.md). The [contract](design-basis/operating-contract.md) governs operation; the [adaptation map](design-basis/checklist-alignment.md) accounts for CP0–CP7 and every original section 8.2 result category. The original checklist stays unchanged.
 

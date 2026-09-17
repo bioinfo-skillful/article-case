@@ -1,13 +1,13 @@
 {
   "case_id": "tcga-kirc-stage-survival",
-  "protocol_id": "tcga-kirc-stage-survival-conversation-v2.1.0",
+  "protocol_id": "tcga-kirc-stage-survival-conversation-v2.1.1",
   "framework_version": "2.2.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/tcga-kirc-stage-survival/case-spec.json",
-      "sha256": "de718951c9089003fda754f82e9ff2e44ca1bd2509edf05c2f34756c837b362a"
+      "sha256": "3df567a86b8e762ec4adaf61fc81f2fbd4f1b5bc2c6ddb7fc7204d9f64b8c18a"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -63,7 +63,7 @@
     },
     {
       "source_relative_path": "cases/tcga-kirc-stage-survival/sources/README.md",
-      "sha256": "4117ce6afe23db76a75055f9ad8d860574bfa842823a5c7e177f8b990b54035a"
+      "sha256": "b5e842aa4bc5505e9bababb028f3df69b7fad1972268a81097eaed25323ebf32"
     },
     {
       "source_relative_path": "cases/tcga-kirc-stage-survival/sources/source-manifest.json",
@@ -107,17 +107,17 @@
     {
       "path": "02_Post_Run_Collection.md",
       "bytes": 3558,
-      "sha256": "7c8336bf7e615a6bac371114350ee7f26e4a5f907ce97a7c8017c8d991d4c6a1"
+      "sha256": "bbe378b77fd408fa4b1744868ec475c520cb662a3b823bcede544b4443faf18e"
     },
     {
       "path": "03_Human_Record_Sheet.md",
       "bytes": 2968,
-      "sha256": "af4c0432c6fbbcc016822660e2410f91bb8f2bdd22285360c7db234162da64c8"
+      "sha256": "e69b74dd5ccd3e6888d89428b4be2628861c0a9fd6ee6bbeb9429a8e04cc0a7c"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 7064,
-      "sha256": "305dea1f7c5658944b425c04c7230c23d161c23461223cf5df388efc5fa18bb5"
+      "sha256": "c1e8ec4919389ca941bd2398ab87c4e5223e959a4026ca13c0628420396b6f03"
     },
     {
       "path": "collection-template/evidence-index.jsonl",
@@ -196,8 +196,8 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 1720,
-      "sha256": "4117ce6afe23db76a75055f9ad8d860574bfa842823a5c7e177f8b990b54035a"
+      "bytes": 1730,
+      "sha256": "b5e842aa4bc5505e9bababb028f3df69b7fad1972268a81097eaed25323ebf32"
     },
     {
       "path": "sources/source-manifest.json",
@@ -206,8 +206,8 @@
     },
     {
       "path": "START_Run_Case_with_Codex.md",
-      "bytes": 5114,
-      "sha256": "b09be58b07fffd2ea87817652253614cdf6e7f925127b55a9dc90cc9c848f909"
+      "bytes": 5007,
+      "sha256": "d52cdfbfcf15a38395ad47aea702ead6673a286af9919e82cbb9090129370a3d"
     }
   ]
 }

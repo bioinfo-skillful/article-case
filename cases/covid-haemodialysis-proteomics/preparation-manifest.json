@@ -1,13 +1,13 @@
 {
   "case_id": "covid-haemodialysis-proteomics",
-  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.1.1",
+  "protocol_id": "covid-haemodialysis-proteomics-conversation-v2.1.2",
   "framework_version": "2.2.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/case-spec.json",
-      "sha256": "69e22fc52f2d23a68b00703d8a3d3e53bd734cc831ddc6183facc4c0102d6c33"
+      "sha256": "6cf350cb32a735e71d8b261a8a7a6a1440f280c0a76a7e33d6f310bf772ff392"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -63,7 +63,7 @@
     },
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/README.md",
-      "sha256": "30e3d868bcf53486207de08137710e22e0448643fb3b55f9fdf82b821d5ccffa"
+      "sha256": "6b5a3bfc49a7126e4ea0d9068c6934f498f4421c1a0f135f1be91e49f3a651b0"
     },
     {
       "source_relative_path": "cases/covid-haemodialysis-proteomics/sources/source-manifest.json",
@@ -107,17 +107,17 @@
     {
       "path": "02_Post_Run_Collection.md",
       "bytes": 3554,
-      "sha256": "4a036482f973bcfeae951ae3195ffa2bf8c476793d65979b194081cb9fe0b6b8"
+      "sha256": "373e10ce53104310ad3bea63f8c95ac88fd8af1db685bcda62e18a6b7571d2e6"
     },
     {
       "path": "03_Human_Record_Sheet.md",
       "bytes": 2964,
-      "sha256": "6a6dcf730ccd150578974f46ddf90a151d59a8be49b3950e878ec1860b15d392"
+      "sha256": "8f614cda987a3ceca9ef420491c9b8309e93baaa0f53bb391194f03ec0015122"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 7007,
-      "sha256": "e1e05bb43252b7261fedc42196d0c6358306fec50cabd95adb936b095bb52c63"
+      "sha256": "1b126960bb580792fab62d00f32b8ac4761c266ec67bdd17adf02d5dc2e85386"
     },
     {
       "path": "collection-template/evidence-index.jsonl",
@@ -196,8 +196,8 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 2640,
-      "sha256": "30e3d868bcf53486207de08137710e22e0448643fb3b55f9fdf82b821d5ccffa"
+      "bytes": 2630,
+      "sha256": "6b5a3bfc49a7126e4ea0d9068c6934f498f4421c1a0f135f1be91e49f3a651b0"
     },
     {
       "path": "sources/source-manifest.json",
@@ -206,8 +206,8 @@
     },
     {
       "path": "START_Run_Case_with_Codex.md",
-      "bytes": 5349,
-      "sha256": "5fe1fdaba97b366435e23ee0694f30d226fae330e33ad211a4ce22686232d559"
+      "bytes": 5274,
+      "sha256": "1d393806541b1f0eb8aa12727dfed632c9118de286ed53858ab81a67376f4910"
     }
   ]
 }

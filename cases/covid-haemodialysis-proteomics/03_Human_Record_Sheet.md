@@ -1,6 +1,6 @@
 # Operator record: Case2: longitudinal inflammatory proteomics in COVID-19
 
-Protocol **covid-haemodialysis-proteomics-conversation-v2.1.1** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
+Protocol **covid-haemodialysis-proteomics-conversation-v2.1.2** · preparation only. Copy this sheet into a separate external run-evidence location at launch. Follow the full [working checklist](design-basis/operator-checklist.md); it includes question cards, permissions, exact-version approval, review completion, recovery, artifacts and handoff.
 
 ## Allocate before starting
 

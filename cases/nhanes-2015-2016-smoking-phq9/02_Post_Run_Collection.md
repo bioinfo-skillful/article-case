@@ -1,6 +1,6 @@
 # Collect and assess: Smoking and depressive symptoms in NHANES
 
-Protocol **nhanes-smoking-phq9-conversation-v2.1.0**. External operator material; do not submit this document to the scientific agent or built-in Reviewer.
+Protocol **nhanes-smoking-phq9-conversation-v2.1.1**. External operator material; do not submit this document to the scientific agent or built-in Reviewer.
 
 Use retained evidence and the [collection matrix](design-basis/evidence-collection.md). Collection cannot recreate an unretained initial Plan, transient screenshot, old artifact version or unobserved review scope.
 

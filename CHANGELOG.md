@@ -1,3 +1,9 @@
+# Case prompt cleanup — 2026-09-17
+
+- Remove the language-only sentence from NHANES and GBM scientific openings.
+- Remove instructions to append that sentence from COVID and kidney-cancer launch guidance. Submit the English openings as written, with legitimate source context only.
+- Advance case protocol patch identities and regenerate preparations/hashes; framework remains 2.2.0. Preserve archived preparations and all historical run prompts.
+
 # 2.2.0 — Default checkpoint collection
 
 - Add CP0–CP7 as the default collection layout; retain legacy stages and manifest compatibility.

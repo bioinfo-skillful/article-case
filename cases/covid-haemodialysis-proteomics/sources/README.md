@@ -2,7 +2,7 @@
 
 Start with an empty scientific workspace. Submit [the conversational opening](../01_OpenScience_Prompt.md), which supplies the public repository link and the two filenames. Do not download, attach or prepopulate data on the agent's behalf. Let OpenScience retrieve the files, read the author documentation, assess the actual cohort and propose an investigation through native Plan first. The data are not claimed to be attached.
 
-Add only this launch context: "Please use English for our discussion and deliverables." Do not submit START, 02–04, design-basis, the external source manifest, private assessments or the preparation ZIP as scientific inputs. No analysis script or historical result is an initial attachment.
+Submit the English opening as written, without an extra language instruction. Do not submit START, 02–04, design-basis, the external source manifest, private assessments or the preparation ZIP as scientific inputs. No analysis script or historical result is an initial attachment.
 
 ## Verify acquisition externally
 

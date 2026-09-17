@@ -1,13 +1,13 @@
 {
   "case_id": "gbm-clinical-trial-landscape",
-  "protocol_id": "gbm-trial-landscape-conversation-v2.1.0",
+  "protocol_id": "gbm-trial-landscape-conversation-v2.1.1",
   "framework_version": "2.2.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/gbm-clinical-trial-landscape/case-spec.json",
-      "sha256": "cd12c22eff7a10c517f43ad380d962095e3fa0384d907443929dd13c8f874822"
+      "sha256": "2ecf88234b220d6af22b1dbe5cea75d72f673de0de8f4c41854f40a04dc876b2"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -93,23 +93,23 @@
   "files": [
     {
       "path": "01_OpenScience_Prompt.md",
-      "bytes": 278,
-      "sha256": "053c40c9e2c6ce403658fd4a975f42f260c4cb7d1f0912744f06670a920e7c0c"
+      "bytes": 216,
+      "sha256": "b076eaeb59195de8a51caf3f1b916a9962e2d6c1b75b3c225668cd3bf43482bb"
     },
     {
       "path": "02_Post_Run_Collection.md",
       "bytes": 3525,
-      "sha256": "9176d8b2b589f8984947a307df12d76d3cec85eb7b9205ed361cdd75e395d2ea"
+      "sha256": "eb3d9d94cae2655a2e0e073addfdaf762321b9efc895367b8eee1f2e57d10184"
     },
     {
       "path": "03_Human_Record_Sheet.md",
       "bytes": 2935,
-      "sha256": "240600916d07b569f73d15155a0e6e19485bf4162e3aea3f7a6288e8fa7c8c01"
+      "sha256": "4cf8ee9d2e118714e5221dfa0499f9b343411b648680cce227c744cf9f331171"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 6934,
-      "sha256": "6d9893568f9c78ee38a0af63a7ab0d8e1f21551806e464a0417f5fdabf6c5b86"
+      "sha256": "4eb9783b6189084d926f0046934535c7eae31c9ddaf1faf863d505f7f1641410"
     },
     {
       "path": "collection-template/evidence-index.jsonl",
@@ -189,7 +189,7 @@
     {
       "path": "START_Run_Case_with_Codex.md",
       "bytes": 4562,
-      "sha256": "b6463b52563ae6c947df926d54c9ae8e367f9812791baaca0650f77c4de322c9"
+      "sha256": "f91d6aeaf378951cca8711eb9bbeee34c4a4c338a7a5dcc175de3f4552f939a8"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "case_id": "nhanes-2015-2016-smoking-phq9",
-  "protocol_id": "nhanes-smoking-phq9-conversation-v2.1.0",
+  "protocol_id": "nhanes-smoking-phq9-conversation-v2.1.1",
   "framework_version": "2.2.0",
   "status": "prepared_not_live_validated",
   "prepared_date": "2026-09-16",
   "inputs": [
     {
       "source_relative_path": "cases/nhanes-2015-2016-smoking-phq9/case-spec.json",
-      "sha256": "770e504c050454c6520a0c7924243fdb7b3b8abffa94a71b3a0776375a7870d5"
+      "sha256": "027c8865d81e982bb9c7047589d70b08ccd67a9245233e4f8856e43cc80cea96"
     },
     {
       "source_relative_path": ".agents/skills/building-openscience-cases/assets/case-template/01_OpenScience_Prompt.md",
@@ -93,23 +93,23 @@
   "files": [
     {
       "path": "01_OpenScience_Prompt.md",
-      "bytes": 447,
-      "sha256": "a558d64bd81a04e4abcc0fe92d043952f35198ffdc92874fc7381d05c9b0f2ee"
+      "bytes": 385,
+      "sha256": "2dce39d0c391f39aa7339f3daf329250dbb76e8d1bc351b1a1edc187339fd4ad"
     },
     {
       "path": "02_Post_Run_Collection.md",
       "bytes": 3529,
-      "sha256": "fb5e4ff19023ef20b740fd9097089fd53acba3f77057cae0dd830740eac2c45a"
+      "sha256": "ce5110529d4c4479911cc568b01cd9212f0a21599c8476c0920494c2e86acddb"
     },
     {
       "path": "03_Human_Record_Sheet.md",
       "bytes": 2939,
-      "sha256": "9b9515a78fbccfa3b97f48f48472a1155f90ef99e65af4fcd5a51ba99eb0536b"
+      "sha256": "b2111917e870f55a7313bb471f179603d0229150140589f01538ea20a5a554ef"
     },
     {
       "path": "04_Checklist_Alignment_and_Evaluation.md",
       "bytes": 6992,
-      "sha256": "992f16a4574d964ba62bfe13cc98bdd292c07be2dcfe090bbdc7cb679c017d14"
+      "sha256": "5baaafea7b872c56438988bb73153d9923b27fd2b6c1177a9ab8f6741fff3583"
     },
     {
       "path": "collection-template/evidence-index.jsonl",
@@ -189,7 +189,7 @@
     {
       "path": "START_Run_Case_with_Codex.md",
       "bytes": 4635,
-      "sha256": "4c45496758ae635313ea3776759767db2d38f62d41223c8895d934a26f06dbe4"
+      "sha256": "e121702085d5f36355151b07ba4df08a61c40dee538957a08f84e42049f27fdc"
     }
   ]
 }
